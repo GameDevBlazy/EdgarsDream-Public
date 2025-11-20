@@ -1,0 +1,8 @@
+order_index: 120
+id_hex_bytes:
+  - "3D"
+  - "00"
+id_hex: "0x003D"
+name: "Bullet of Fire"
+school: "Nature"
+capsule_type: "Attack"

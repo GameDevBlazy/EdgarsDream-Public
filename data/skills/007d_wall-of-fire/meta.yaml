@@ -1,0 +1,8 @@
+order_index: 242
+id_hex_bytes:
+  - "7D"
+  - "00"
+id_hex: "0x007D"
+name: "Wall of Fire"
+school: "Nature"
+capsule_type: "Defense"

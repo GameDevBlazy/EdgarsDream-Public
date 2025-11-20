@@ -1,0 +1,8 @@
+order_index: 23
+id_hex_bytes:
+  - "25"
+  - "01"
+id_hex: "0x0125"
+name: "Swift Punch"
+school: "Ki"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 359
+id_hex_bytes:
+  - "F2"
+  - "00"
+id_hex: "0x00F2"
+name: "Regenerate"
+school: "Ki"
+capsule_type: "Special"

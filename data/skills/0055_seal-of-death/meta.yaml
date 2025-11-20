@@ -1,0 +1,8 @@
+order_index: 168
+id_hex_bytes:
+  - "55"
+  - "00"
+id_hex: "0x0055"
+name: "Seal of Death"
+school: "Faith"
+capsule_type: "Attack"

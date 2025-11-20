@@ -1,0 +1,8 @@
+order_index: 54
+id_hex_bytes:
+  - "12"
+  - "00"
+id_hex: "0x0012"
+name: "Hyperkick"
+school: "Ki"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 234
+id_hex_bytes:
+  - "76"
+  - "00"
+id_hex: "0x0076"
+name: "Laser Barrier"
+school: "Optical"
+capsule_type: "Defense"

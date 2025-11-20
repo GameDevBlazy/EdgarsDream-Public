@@ -1,0 +1,8 @@
+order_index: 140
+id_hex_bytes:
+  - "47"
+  - "00"
+id_hex: "0x0047"
+name: "Hyper Ki Bullet"
+school: "Ki"
+capsule_type: "Attack"

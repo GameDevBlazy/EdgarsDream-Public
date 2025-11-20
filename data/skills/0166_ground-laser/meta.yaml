@@ -1,0 +1,8 @@
+order_index: 203
+id_hex_bytes:
+  - "66"
+  - "01"
+id_hex: "0x0166"
+name: "Ground Laser"
+school: "Optical"
+capsule_type: "Attack"

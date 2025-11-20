@@ -1,0 +1,8 @@
+order_index: 223
+id_hex_bytes:
+  - "70"
+  - "01"
+id_hex: "0x0170"
+name: "Martial Arts Scroll"
+school: "Ki"
+capsule_type: "Status"

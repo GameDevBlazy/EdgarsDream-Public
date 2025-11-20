@@ -1,0 +1,8 @@
+order_index: 127
+id_hex_bytes:
+  - "40"
+  - "01"
+id_hex: "0x0140"
+name: "Joke of Anubis"
+school: "Faith"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 255
+id_hex_bytes:
+  - "8A"
+  - "00"
+id_hex: "0x008A"
+name: "Reverse"
+school: "Psycho"
+capsule_type: "Defense"

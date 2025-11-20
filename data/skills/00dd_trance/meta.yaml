@@ -1,0 +1,8 @@
+order_index: 338
+id_hex_bytes:
+  - "DD"
+  - "00"
+id_hex: "0x00DD"
+name: "Trance"
+school: "Faith"
+capsule_type: "Status"

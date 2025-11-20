@@ -1,0 +1,8 @@
+order_index: 316
+id_hex_bytes:
+  - "C7"
+  - "00"
+id_hex: "0x00C7"
+name: "Fatigue"
+school: "Ki"
+capsule_type: "Environment"

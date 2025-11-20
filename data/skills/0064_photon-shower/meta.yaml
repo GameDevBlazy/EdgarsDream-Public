@@ -1,0 +1,8 @@
+order_index: 198
+id_hex_bytes:
+  - "64"
+  - "00"
+id_hex: "0x0064"
+name: "Photon Shower"
+school: "Optical"
+capsule_type: "Attack"

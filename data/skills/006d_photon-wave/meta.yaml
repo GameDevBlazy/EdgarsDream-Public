@@ -1,0 +1,8 @@
+order_index: 216
+id_hex_bytes:
+  - "6D"
+  - "00"
+id_hex: "0x006D"
+name: "Photon Wave"
+school: "Optical"
+capsule_type: "Attack"

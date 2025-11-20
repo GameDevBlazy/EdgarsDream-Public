@@ -1,0 +1,8 @@
+order_index: 21
+id_hex_bytes:
+  - "23"
+  - "01"
+id_hex: "0x0123"
+name: "Swift Blow"
+school: "Ki"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 370
+id_hex_bytes:
+  - "FD"
+  - "00"
+id_hex: "0x00FD"
+name: "Surprise Attack"
+school: "Psycho"
+capsule_type: "Special"

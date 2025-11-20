@@ -1,0 +1,8 @@
+order_index: 52
+id_hex_bytes:
+  - "10"
+  - "00"
+id_hex: "0x0010"
+name: "Tiger Kick"
+school: "Ki"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 17
+id_hex_bytes:
+  - "19"
+  - "01"
+id_hex: "0x0119"
+name: "Octolaser"
+school: "Optical"
+capsule_type: "Attack"

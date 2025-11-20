@@ -1,0 +1,8 @@
+order_index: 36
+id_hex_bytes:
+  - "06"
+  - "00"
+id_hex: "0x0006"
+name: "Laser Blade"
+school: "Optical"
+capsule_type: "Attack"

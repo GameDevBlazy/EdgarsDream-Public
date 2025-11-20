@@ -1,0 +1,8 @@
+order_index: 275
+id_hex_bytes:
+  - "9E"
+  - "00"
+id_hex: "0x009E"
+name: "Bloody Ritual"
+school: "Faith"
+capsule_type: "Erase"

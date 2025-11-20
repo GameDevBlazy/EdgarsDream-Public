@@ -1,0 +1,8 @@
+order_index: 261
+id_hex_bytes:
+  - "90"
+  - "00"
+id_hex: "0x0090"
+name: "Digestion"
+school: "Ki"
+capsule_type: "Defense"

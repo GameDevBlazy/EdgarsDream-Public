@@ -1,0 +1,8 @@
+order_index: 256
+id_hex_bytes:
+  - "8B"
+  - "00"
+id_hex: "0x008B"
+name: "Reflect Barrier"
+school: "Optical"
+capsule_type: "Defense"

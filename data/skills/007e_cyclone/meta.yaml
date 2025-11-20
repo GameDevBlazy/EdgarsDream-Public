@@ -1,0 +1,8 @@
+order_index: 243
+id_hex_bytes:
+  - "7E"
+  - "00"
+id_hex: "0x007E"
+name: "Cyclone"
+school: "Nature"
+capsule_type: "Defense"

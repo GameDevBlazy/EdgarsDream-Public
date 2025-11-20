@@ -1,0 +1,8 @@
+order_index: 245
+id_hex_bytes:
+  - "80"
+  - "00"
+id_hex: "0x0080"
+name: "Shield of Aegis"
+school: "Faith"
+capsule_type: "Defense"

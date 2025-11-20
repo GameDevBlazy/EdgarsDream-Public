@@ -1,0 +1,8 @@
+order_index: 141
+id_hex_bytes:
+  - "47"
+  - "01"
+id_hex: "0x0147"
+name: "Erase Shell"
+school: "Optical"
+capsule_type: "Defense"

@@ -1,0 +1,8 @@
+order_index: 227
+id_hex_bytes:
+  - "72"
+  - "01"
+id_hex: "0x0172"
+name: "Withering Curse"
+school: "Faith"
+capsule_type: "Status"

@@ -1,0 +1,8 @@
+order_index: 365
+id_hex_bytes:
+  - "F8"
+  - "00"
+id_hex: "0x00F8"
+name: "Quiet Days"
+school: "Optical"
+capsule_type: "Environment"

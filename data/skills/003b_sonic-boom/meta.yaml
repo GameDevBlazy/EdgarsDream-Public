@@ -1,0 +1,8 @@
+order_index: 116
+id_hex_bytes:
+  - "3B"
+  - "00"
+id_hex: "0x003B"
+name: "Sonic Boom"
+school: "Nature"
+capsule_type: "Attack"

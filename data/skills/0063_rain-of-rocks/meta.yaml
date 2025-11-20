@@ -1,0 +1,8 @@
+order_index: 196
+id_hex_bytes:
+  - "63"
+  - "00"
+id_hex: "0x0063"
+name: "Rain of Rocks"
+school: "Psycho"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 220
+id_hex_bytes:
+  - "6F"
+  - "00"
+id_hex: "0x006F"
+name: "Twister"
+school: "Nature"
+capsule_type: "Attack"

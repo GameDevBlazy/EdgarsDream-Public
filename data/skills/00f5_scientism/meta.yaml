@@ -1,0 +1,8 @@
+order_index: 362
+id_hex_bytes:
+  - "F5"
+  - "00"
+id_hex: "0x00F5"
+name: "Scientism"
+school: "Optical"
+capsule_type: "Environment"

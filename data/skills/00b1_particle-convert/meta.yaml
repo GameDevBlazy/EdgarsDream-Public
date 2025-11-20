@@ -1,0 +1,8 @@
+order_index: 294
+id_hex_bytes:
+  - "B1"
+  - "00"
+id_hex: "0x00B1"
+name: "Particle Convert"
+school: "Optical"
+capsule_type: "Erase"

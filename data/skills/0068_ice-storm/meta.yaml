@@ -1,0 +1,8 @@
+order_index: 206
+id_hex_bytes:
+  - "68"
+  - "00"
+id_hex: "0x0068"
+name: "Ice Storm"
+school: "Nature"
+capsule_type: "Attack"

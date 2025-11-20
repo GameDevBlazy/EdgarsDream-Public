@@ -1,0 +1,8 @@
+order_index: 335
+id_hex_bytes:
+  - "DA"
+  - "00"
+id_hex: "0x00DA"
+name: "Heat"
+school: "Nature"
+capsule_type: "Status"

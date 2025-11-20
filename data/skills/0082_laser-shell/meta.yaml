@@ -1,0 +1,8 @@
+order_index: 247
+id_hex_bytes:
+  - "82"
+  - "00"
+id_hex: "0x0082"
+name: "Laser Shell"
+school: "Optical"
+capsule_type: "Defense"

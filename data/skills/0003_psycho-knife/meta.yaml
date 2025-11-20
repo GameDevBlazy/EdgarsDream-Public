@@ -1,0 +1,8 @@
+order_index: 33
+id_hex_bytes:
+  - "03"
+  - "00"
+id_hex: "0x0003"
+name: "Psycho Knife"
+school: "Psycho"
+capsule_type: "Attack"

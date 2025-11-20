@@ -1,0 +1,8 @@
+order_index: 235
+id_hex_bytes:
+  - "76"
+  - "01"
+id_hex: "0x0176"
+name: "Phantom Dust"
+school: "Faith"
+capsule_type: "Special"

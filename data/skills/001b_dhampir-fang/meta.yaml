@@ -1,0 +1,8 @@
+order_index: 64
+id_hex_bytes:
+  - "1B"
+  - "00"
+id_hex: "0x001B"
+name: "Dhampir Fang"
+school: "Faith"
+capsule_type: "Attack"

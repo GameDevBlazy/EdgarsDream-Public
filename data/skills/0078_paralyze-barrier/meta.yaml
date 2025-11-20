@@ -1,0 +1,8 @@
+order_index: 237
+id_hex_bytes:
+  - "78"
+  - "00"
+id_hex: "0x0078"
+name: "Paralyze Barrier"
+school: "Optical"
+capsule_type: "Defense"

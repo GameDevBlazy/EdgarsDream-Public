@@ -1,0 +1,8 @@
+order_index: 353
+id_hex_bytes:
+  - "EC"
+  - "00"
+id_hex: "0x00EC"
+name: "Mind Reading"
+school: "Ki"
+capsule_type: "Status"

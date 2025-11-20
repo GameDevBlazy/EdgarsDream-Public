@@ -1,0 +1,8 @@
+order_index: 92
+id_hex_bytes:
+  - "2E"
+  - "00"
+id_hex: "0x002E"
+name: "Auto Shell"
+school: "Optical"
+capsule_type: "Defense"

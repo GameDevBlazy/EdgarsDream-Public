@@ -1,0 +1,8 @@
+order_index: 53
+id_hex_bytes:
+  - "11"
+  - "00"
+id_hex: "0x0011"
+name: "Leg Throw"
+school: "Ki"
+capsule_type: "Attack"

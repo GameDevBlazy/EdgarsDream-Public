@@ -1,0 +1,8 @@
+order_index: 171
+id_hex_bytes:
+  - "56"
+  - "01"
+id_hex: "0x0156"
+name: "EL Bomb"
+school: "Optical"
+capsule_type: "Attack"

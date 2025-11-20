@@ -1,0 +1,8 @@
+order_index: 128
+id_hex_bytes:
+  - "41"
+  - "00"
+id_hex: "0x0041"
+name: "Root of Tree"
+school: "Nature"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 66
+id_hex_bytes:
+  - "1C"
+  - "00"
+id_hex: "0x001C"
+name: "Song of Succubus"
+school: "Faith"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 65
+id_hex_bytes:
+  - "1B"
+  - "01"
+id_hex: "0x011B"
+name: "Crystallization"
+school: "Nature"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 19
+id_hex_bytes:
+  - "21"
+  - "01"
+id_hex: "0x0121"
+name: "Stagnant Air"
+school: "Ki"
+capsule_type: "Environment"

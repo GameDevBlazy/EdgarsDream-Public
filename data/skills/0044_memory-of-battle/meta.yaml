@@ -1,0 +1,8 @@
+order_index: 134
+id_hex_bytes:
+  - "44"
+  - "00"
+id_hex: "0x0044"
+name: "Memory of Battle"
+school: "Nature"
+capsule_type: "Attack"

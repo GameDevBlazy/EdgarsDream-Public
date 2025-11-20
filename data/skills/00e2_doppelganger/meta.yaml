@@ -1,0 +1,8 @@
+order_index: 343
+id_hex_bytes:
+  - "E2"
+  - "00"
+id_hex: "0x00E2"
+name: "Doppelganger"
+school: "Faith"
+capsule_type: "Status"

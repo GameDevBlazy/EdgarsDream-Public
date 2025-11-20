@@ -1,0 +1,8 @@
+order_index: 199
+id_hex_bytes:
+  - "64"
+  - "01"
+id_hex: "0x0164"
+name: "Place of Invisibility"
+school: "Optical"
+capsule_type: "Status"

@@ -1,0 +1,8 @@
+order_index: 367
+id_hex_bytes:
+  - "FA"
+  - "00"
+id_hex: "0x00FA"
+name: "Retreat"
+school: "Psycho"
+capsule_type: "Special"

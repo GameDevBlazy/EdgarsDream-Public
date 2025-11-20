@@ -1,0 +1,8 @@
+order_index: 26
+id_hex_bytes:
+  - "28"
+  - "01"
+id_hex: "0x0128"
+name: "Thieving Imp"
+school: "Faith"
+capsule_type: "Erase"

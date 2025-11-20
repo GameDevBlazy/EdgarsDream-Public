@@ -1,0 +1,8 @@
+order_index: 236
+id_hex_bytes:
+  - "77"
+  - "00"
+id_hex: "0x0077"
+name: "Flash Barrier"
+school: "Optical"
+capsule_type: "Defense"

@@ -1,0 +1,8 @@
+order_index: 186
+id_hex_bytes:
+  - "5E"
+  - "00"
+id_hex: "0x005E"
+name: "Massive Quake"
+school: "Nature"
+capsule_type: "Attack"

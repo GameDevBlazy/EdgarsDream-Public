@@ -1,0 +1,8 @@
+order_index: 204
+id_hex_bytes:
+  - "67"
+  - "00"
+id_hex: "0x0067"
+name: "Thunder Storm"
+school: "Nature"
+capsule_type: "Attack"

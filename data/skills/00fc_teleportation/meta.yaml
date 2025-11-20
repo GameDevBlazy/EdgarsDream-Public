@@ -1,0 +1,8 @@
+order_index: 369
+id_hex_bytes:
+  - "FC"
+  - "00"
+id_hex: "0x00FC"
+name: "Teleportation"
+school: "Psycho"
+capsule_type: "Special"

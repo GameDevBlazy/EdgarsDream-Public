@@ -1,0 +1,8 @@
+order_index: 41
+id_hex_bytes:
+  - "0A"
+  - "01"
+id_hex: "0x010A"
+name: "Relearn"
+school: "Optical"
+capsule_type: "Special"

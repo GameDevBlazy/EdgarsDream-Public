@@ -1,0 +1,8 @@
+order_index: 347
+id_hex_bytes:
+  - "E6"
+  - "00"
+id_hex: "0x00E6"
+name: "Demon's Wing"
+school: "Faith"
+capsule_type: "Status"

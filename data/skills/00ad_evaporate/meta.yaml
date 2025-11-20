@@ -1,0 +1,8 @@
+order_index: 290
+id_hex_bytes:
+  - "AD"
+  - "00"
+id_hex: "0x00AD"
+name: "Evaporate"
+school: "Optical"
+capsule_type: "Erase"

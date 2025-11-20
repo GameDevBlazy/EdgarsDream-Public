@@ -1,0 +1,8 @@
+order_index: 81
+id_hex_bytes:
+  - "27"
+  - "00"
+id_hex: "0x0027"
+name: "Rail Gun"
+school: "Psycho"
+capsule_type: "Attack"

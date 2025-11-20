@@ -1,0 +1,8 @@
+order_index: 270
+id_hex_bytes:
+  - "99"
+  - "00"
+id_hex: "0x0099"
+name: "Devil's Arm"
+school: "Faith"
+capsule_type: "Defense"

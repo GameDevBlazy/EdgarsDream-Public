@@ -1,0 +1,8 @@
+order_index: 82
+id_hex_bytes:
+  - "28"
+  - "00"
+id_hex: "0x0028"
+name: "Psycho Spear"
+school: "Psycho"
+capsule_type: "Attack"

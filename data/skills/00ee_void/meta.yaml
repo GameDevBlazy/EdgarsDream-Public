@@ -1,0 +1,8 @@
+order_index: 355
+id_hex_bytes:
+  - "EE"
+  - "00"
+id_hex: "0x00EE"
+name: "Void"
+school: "Ki"
+capsule_type: "Status"

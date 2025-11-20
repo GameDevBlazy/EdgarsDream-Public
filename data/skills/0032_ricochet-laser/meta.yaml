@@ -1,0 +1,8 @@
+order_index: 98
+id_hex_bytes:
+  - "32"
+  - "00"
+id_hex: "0x0032"
+name: "Ricochet Laser"
+school: "Optical"
+capsule_type: "Attack"

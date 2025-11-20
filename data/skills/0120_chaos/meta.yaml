@@ -1,0 +1,8 @@
+order_index: 18
+id_hex_bytes:
+  - "20"
+  - "01"
+id_hex: "0x0120"
+name: "Chaos"
+school: "Ki"
+capsule_type: "Environment"

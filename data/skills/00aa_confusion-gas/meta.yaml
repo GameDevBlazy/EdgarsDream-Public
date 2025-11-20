@@ -1,0 +1,8 @@
+order_index: 287
+id_hex_bytes:
+  - "AA"
+  - "00"
+id_hex: "0x00AA"
+name: "Confusion Gas"
+school: "Psycho"
+capsule_type: "Erase"

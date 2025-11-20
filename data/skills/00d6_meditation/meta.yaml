@@ -1,0 +1,8 @@
+order_index: 331
+id_hex_bytes:
+  - "D6"
+  - "00"
+id_hex: "0x00D6"
+name: "Meditation"
+school: "Ki"
+capsule_type: "Status"

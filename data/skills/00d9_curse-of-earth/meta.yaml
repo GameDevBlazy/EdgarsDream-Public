@@ -1,0 +1,8 @@
+order_index: 334
+id_hex_bytes:
+  - "D9"
+  - "00"
+id_hex: "0x00D9"
+name: "Curse of Earth"
+school: "Nature"
+capsule_type: "Status"

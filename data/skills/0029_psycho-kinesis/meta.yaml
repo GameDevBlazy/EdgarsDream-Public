@@ -1,0 +1,8 @@
+order_index: 83
+id_hex_bytes:
+  - "29"
+  - "00"
+id_hex: "0x0029"
+name: "Psycho Kinesis"
+school: "Psycho"
+capsule_type: "Attack"

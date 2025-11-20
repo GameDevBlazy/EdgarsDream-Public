@@ -1,0 +1,8 @@
+order_index: 148
+id_hex_bytes:
+  - "4B"
+  - "00"
+id_hex: "0x004B"
+name: "Scream of Evil"
+school: "Faith"
+capsule_type: "Attack"

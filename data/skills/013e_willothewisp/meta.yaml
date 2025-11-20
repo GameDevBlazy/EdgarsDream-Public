@@ -1,0 +1,8 @@
+order_index: 123
+id_hex_bytes:
+  - "3E"
+  - "01"
+id_hex: "0x013E"
+name: "Willo'theWisp"
+school: "Faith"
+capsule_type: "Attack"

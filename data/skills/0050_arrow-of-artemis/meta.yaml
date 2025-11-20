@@ -1,0 +1,8 @@
+order_index: 158
+id_hex_bytes:
+  - "50"
+  - "00"
+id_hex: "0x0050"
+name: "Arrow of Artemis"
+school: "Faith"
+capsule_type: "Attack"

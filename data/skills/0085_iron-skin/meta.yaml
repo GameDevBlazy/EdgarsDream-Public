@@ -1,0 +1,8 @@
+order_index: 250
+id_hex_bytes:
+  - "85"
+  - "00"
+id_hex: "0x0085"
+name: "Iron Skin"
+school: "Ki"
+capsule_type: "Defense"

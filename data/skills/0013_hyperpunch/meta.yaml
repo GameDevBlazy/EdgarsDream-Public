@@ -1,0 +1,8 @@
+order_index: 55
+id_hex_bytes:
+  - "13"
+  - "00"
+id_hex: "0x0013"
+name: "Hyperpunch"
+school: "Ki"
+capsule_type: "Attack"

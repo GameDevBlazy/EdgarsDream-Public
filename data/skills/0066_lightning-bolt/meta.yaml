@@ -1,0 +1,8 @@
+order_index: 202
+id_hex_bytes:
+  - "66"
+  - "00"
+id_hex: "0x0066"
+name: "Lightning Bolt"
+school: "Nature"
+capsule_type: "Attack"

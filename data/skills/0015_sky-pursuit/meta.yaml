@@ -1,0 +1,8 @@
+order_index: 57
+id_hex_bytes:
+  - "15"
+  - "00"
+id_hex: "0x0015"
+name: "Sky Pursuit"
+school: "Ki"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 115
+id_hex_bytes:
+  - "3A"
+  - "01"
+id_hex: "0x013A"
+name: "Backdraft Bullet"
+school: "Ki"
+capsule_type: "Attack"

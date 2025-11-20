@@ -1,0 +1,8 @@
+order_index: 77
+id_hex_bytes:
+  - "23"
+  - "00"
+id_hex: "0x0023"
+name: "Debris Bullet"
+school: "Psycho"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 308
+id_hex_bytes:
+  - "BF"
+  - "00"
+id_hex: "0x00BF"
+name: "Abnormal Gravity"
+school: "Psycho"
+capsule_type: "Environment"

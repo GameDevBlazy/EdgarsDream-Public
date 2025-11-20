@@ -1,0 +1,8 @@
+order_index: 241
+id_hex_bytes:
+  - "7C"
+  - "00"
+id_hex: "0x007C"
+name: "Wall of Current"
+school: "Nature"
+capsule_type: "Defense"

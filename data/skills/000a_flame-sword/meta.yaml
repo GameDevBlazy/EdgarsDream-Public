@@ -1,0 +1,8 @@
+order_index: 40
+id_hex_bytes:
+  - "0A"
+  - "00"
+id_hex: "0x000A"
+name: "Flame Sword"
+school: "Nature"
+capsule_type: "Attack"

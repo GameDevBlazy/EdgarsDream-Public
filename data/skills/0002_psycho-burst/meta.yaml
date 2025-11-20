@@ -1,0 +1,8 @@
+order_index: 32
+id_hex_bytes:
+  - "02"
+  - "00"
+id_hex: "0x0002"
+name: "Psycho Burst"
+school: "Psycho"
+capsule_type: "Attack"

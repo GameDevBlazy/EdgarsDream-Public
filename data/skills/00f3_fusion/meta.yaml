@@ -1,0 +1,8 @@
+order_index: 360
+id_hex_bytes:
+  - "F3"
+  - "00"
+id_hex: "0x00F3"
+name: "Fusion"
+school: "Faith"
+capsule_type: "Special"

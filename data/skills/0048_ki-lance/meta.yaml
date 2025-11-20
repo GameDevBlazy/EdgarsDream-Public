@@ -1,0 +1,8 @@
+order_index: 142
+id_hex_bytes:
+  - "48"
+  - "00"
+id_hex: "0x0048"
+name: "Ki Lance"
+school: "Ki"
+capsule_type: "Attack"

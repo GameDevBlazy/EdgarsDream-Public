@@ -1,0 +1,8 @@
+order_index: 72
+id_hex_bytes:
+  - "1F"
+  - "00"
+id_hex: "0x001F"
+name: "Bomb"
+school: "Psycho"
+capsule_type: "Attack"

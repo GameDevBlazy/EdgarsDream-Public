@@ -1,0 +1,8 @@
+order_index: 126
+id_hex_bytes:
+  - "40"
+  - "00"
+id_hex: "0x0040"
+name: "Storm Blade"
+school: "Nature"
+capsule_type: "Attack"

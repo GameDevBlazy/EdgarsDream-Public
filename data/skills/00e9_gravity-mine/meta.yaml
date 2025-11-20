@@ -1,0 +1,8 @@
+order_index: 350
+id_hex_bytes:
+  - "E9"
+  - "00"
+id_hex: "0x00E9"
+name: "Gravity Mine"
+school: "Optical"
+capsule_type: "Status"

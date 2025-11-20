@@ -1,0 +1,8 @@
+order_index: 232
+id_hex_bytes:
+  - "75"
+  - "00"
+id_hex: "0x0075"
+name: "Psychic Wall"
+school: "Psycho"
+capsule_type: "Defense"

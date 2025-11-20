@@ -1,0 +1,8 @@
+order_index: 69
+id_hex_bytes:
+  - "1D"
+  - "01"
+id_hex: "0x011D"
+name: "Piece of Ice"
+school: "Nature"
+capsule_type: "Attack"

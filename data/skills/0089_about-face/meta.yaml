@@ -1,0 +1,8 @@
+order_index: 254
+id_hex_bytes:
+  - "89"
+  - "00"
+id_hex: "0x0089"
+name: "About Face"
+school: "Psycho"
+capsule_type: "Defense"

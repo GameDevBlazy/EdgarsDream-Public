@@ -1,0 +1,8 @@
+order_index: 260
+id_hex_bytes:
+  - "8F"
+  - "00"
+id_hex: "0x008F"
+name: "Learning"
+school: "Ki"
+capsule_type: "Defense"

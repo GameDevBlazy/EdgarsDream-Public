@@ -1,0 +1,8 @@
+order_index: 143
+id_hex_bytes:
+  - "48"
+  - "01"
+id_hex: "0x0148"
+name: "Level Baton"
+school: "Optical"
+capsule_type: "Special"

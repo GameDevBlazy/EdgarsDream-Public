@@ -1,0 +1,8 @@
+order_index: 35
+id_hex_bytes:
+  - "05"
+  - "00"
+id_hex: "0x0005"
+name: "Excalibur"
+school: "Psycho"
+capsule_type: "Attack"

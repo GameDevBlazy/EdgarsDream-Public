@@ -1,0 +1,8 @@
+order_index: 289
+id_hex_bytes:
+  - "AC"
+  - "00"
+id_hex: "0x00AC"
+name: "Panic Gas"
+school: "Optical"
+capsule_type: "Erase"

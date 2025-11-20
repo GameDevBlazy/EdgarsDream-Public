@@ -1,0 +1,8 @@
+order_index: 253
+id_hex_bytes:
+  - "88"
+  - "00"
+id_hex: "0x0088"
+name: "Guardian Angel"
+school: "Faith"
+capsule_type: "Defense"

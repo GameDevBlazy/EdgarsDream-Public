@@ -1,0 +1,8 @@
+order_index: 190
+id_hex_bytes:
+  - "60"
+  - "00"
+id_hex: "0x0060"
+name: "Remote Mine"
+school: "Psycho"
+capsule_type: "Attack"

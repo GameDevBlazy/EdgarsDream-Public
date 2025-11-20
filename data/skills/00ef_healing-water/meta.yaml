@@ -1,0 +1,8 @@
+order_index: 356
+id_hex_bytes:
+  - "EF"
+  - "00"
+id_hex: "0x00EF"
+name: "Healing Water"
+school: "Nature"
+capsule_type: "Special"

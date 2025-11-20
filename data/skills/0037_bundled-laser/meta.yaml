@@ -1,0 +1,8 @@
+order_index: 108
+id_hex_bytes:
+  - "37"
+  - "00"
+id_hex: "0x0037"
+name: "Bundled laser"
+school: "Optical"
+capsule_type: "Attack"

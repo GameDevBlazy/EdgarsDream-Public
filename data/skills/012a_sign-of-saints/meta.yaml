@@ -1,0 +1,8 @@
+order_index: 85
+id_hex_bytes:
+  - "2A"
+  - "01"
+id_hex: "0x012A"
+name: "Sign of Saints"
+school: "Faith"
+capsule_type: "Attack"

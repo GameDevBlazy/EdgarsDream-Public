@@ -1,0 +1,8 @@
+order_index: 38
+id_hex_bytes:
+  - "08"
+  - "00"
+id_hex: "0x0008"
+name: "Lightning Sword"
+school: "Nature"
+capsule_type: "Attack"

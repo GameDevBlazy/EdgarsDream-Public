@@ -1,0 +1,8 @@
+order_index: 351
+id_hex_bytes:
+  - "EA"
+  - "00"
+id_hex: "0x00EA"
+name: "Reduce Entropy"
+school: "Optical"
+capsule_type: "Environment"

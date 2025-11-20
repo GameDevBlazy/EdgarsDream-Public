@@ -1,0 +1,8 @@
+order_index: 73
+id_hex_bytes:
+  - "1F"
+  - "01"
+id_hex: "0x011F"
+name: "Tremor"
+school: "Nature"
+capsule_type: "Attack"

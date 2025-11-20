@@ -1,0 +1,8 @@
+order_index: 349
+id_hex_bytes:
+  - "E8"
+  - "00"
+id_hex: "0x00E8"
+name: "Brain Concussion"
+school: "Psycho"
+capsule_type: "Status"

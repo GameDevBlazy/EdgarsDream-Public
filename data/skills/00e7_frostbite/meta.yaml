@@ -1,0 +1,8 @@
+order_index: 348
+id_hex_bytes:
+  - "E7"
+  - "00"
+id_hex: "0x00E7"
+name: "Frostbite"
+school: "Nature"
+capsule_type: "Status"

@@ -1,0 +1,8 @@
+order_index: 60
+id_hex_bytes:
+  - "18"
+  - "00"
+id_hex: "0x0018"
+name: "Aura Leak"
+school: "Ki"
+capsule_type: "Attack"

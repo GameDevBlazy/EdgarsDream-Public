@@ -1,0 +1,8 @@
+order_index: 175
+id_hex_bytes:
+  - "58"
+  - "01"
+id_hex: "0x0158"
+name: "Pursuit Stopper"
+school: "Ki"
+capsule_type: "Attack"

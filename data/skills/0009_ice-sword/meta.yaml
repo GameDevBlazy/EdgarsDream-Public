@@ -1,0 +1,8 @@
+order_index: 39
+id_hex_bytes:
+  - "09"
+  - "00"
+id_hex: "0x0009"
+name: "Ice Sword"
+school: "Nature"
+capsule_type: "Attack"

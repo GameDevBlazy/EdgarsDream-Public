@@ -1,0 +1,8 @@
+order_index: 240
+id_hex_bytes:
+  - "7B"
+  - "00"
+id_hex: "0x007B"
+name: "Glacial Wall"
+school: "Nature"
+capsule_type: "Defense"

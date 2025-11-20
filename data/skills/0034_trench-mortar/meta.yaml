@@ -1,0 +1,8 @@
+order_index: 102
+id_hex_bytes:
+  - "34"
+  - "00"
+id_hex: "0x0034"
+name: "Trench Mortar"
+school: "Optical"
+capsule_type: "Attack"

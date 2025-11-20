@@ -1,0 +1,8 @@
+order_index: 244
+id_hex_bytes:
+  - "7F"
+  - "00"
+id_hex: "0x007F"
+name: "Shield of Ruin"
+school: "Faith"
+capsule_type: "Defense"

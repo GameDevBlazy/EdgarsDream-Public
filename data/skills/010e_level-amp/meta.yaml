@@ -1,0 +1,8 @@
+order_index: 49
+id_hex_bytes:
+  - "0E"
+  - "01"
+id_hex: "0x010E"
+name: "Level Amp"
+school: "Optical"
+capsule_type: "Special"

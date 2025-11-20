@@ -1,0 +1,8 @@
+order_index: 280
+id_hex_bytes:
+  - "A3"
+  - "00"
+id_hex: "0x00A3"
+name: "Giant Slayer"
+school: "Ki"
+capsule_type: "Erase"

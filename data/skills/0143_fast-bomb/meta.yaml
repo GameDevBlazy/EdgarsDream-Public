@@ -1,0 +1,8 @@
+order_index: 133
+id_hex_bytes:
+  - "43"
+  - "01"
+id_hex: "0x0143"
+name: "Fast Bomb"
+school: "Psycho"
+capsule_type: "Attack"

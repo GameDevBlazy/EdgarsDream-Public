@@ -1,0 +1,8 @@
+order_index: 43
+id_hex_bytes:
+  - "0B"
+  - "01"
+id_hex: "0x010B"
+name: "Steal Power"
+school: "Ki"
+capsule_type: "Erase"

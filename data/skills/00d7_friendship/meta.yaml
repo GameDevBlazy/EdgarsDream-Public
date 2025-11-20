@@ -1,0 +1,8 @@
+order_index: 332
+id_hex_bytes:
+  - "D7"
+  - "00"
+id_hex: "0x00D7"
+name: "Friendship"
+school: "Nature"
+capsule_type: "Status"

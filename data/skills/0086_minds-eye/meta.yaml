@@ -1,0 +1,8 @@
+order_index: 251
+id_hex_bytes:
+  - "86"
+  - "00"
+id_hex: "0x0086"
+name: "Mind's Eye"
+school: "Ki"
+capsule_type: "Defense"

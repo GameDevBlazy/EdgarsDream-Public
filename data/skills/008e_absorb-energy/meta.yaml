@@ -1,0 +1,8 @@
+order_index: 259
+id_hex_bytes:
+  - "8E"
+  - "00"
+id_hex: "0x008E"
+name: "Absorb Energy"
+school: "Ki"
+capsule_type: "Defense"

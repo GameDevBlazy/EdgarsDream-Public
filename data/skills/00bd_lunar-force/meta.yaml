@@ -1,0 +1,8 @@
+order_index: 306
+id_hex_bytes:
+  - "BD"
+  - "00"
+id_hex: "0x00BD"
+name: "Lunar Force"
+school: "Faith"
+capsule_type: "Environment"

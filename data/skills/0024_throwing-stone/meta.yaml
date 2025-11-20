@@ -1,0 +1,8 @@
+order_index: 78
+id_hex_bytes:
+  - "24"
+  - "00"
+id_hex: "0x0024"
+name: "Throwing Stone"
+school: "Psycho"
+capsule_type: "Attack"

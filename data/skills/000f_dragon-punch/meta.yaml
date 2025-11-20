@@ -1,0 +1,8 @@
+order_index: 50
+id_hex_bytes:
+  - "0F"
+  - "00"
+id_hex: "0x000F"
+name: "Dragon Punch"
+school: "Ki"
+capsule_type: "Attack"

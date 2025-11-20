@@ -1,0 +1,8 @@
+order_index: 155
+id_hex_bytes:
+  - "4E"
+  - "01"
+id_hex: "0x014E"
+name: "Dragon Bullet"
+school: "Ki"
+capsule_type: "Attack"

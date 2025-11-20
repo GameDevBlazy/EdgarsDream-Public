@@ -1,0 +1,8 @@
+order_index: 277
+id_hex_bytes:
+  - "A0"
+  - "00"
+id_hex: "0x00A0"
+name: "Wind Pressure"
+school: "Nature"
+capsule_type: "Erase"

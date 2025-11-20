@@ -1,0 +1,8 @@
+order_index: 213
+id_hex_bytes:
+  - "6B"
+  - "01"
+id_hex: "0x016B"
+name: "Heat Devil"
+school: "Nature"
+capsule_type: "Status"

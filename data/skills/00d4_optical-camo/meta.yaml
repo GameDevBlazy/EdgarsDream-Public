@@ -1,0 +1,8 @@
+order_index: 329
+id_hex_bytes:
+  - "D4"
+  - "00"
+id_hex: "0x00D4"
+name: "Optical Camo"
+school: "Optical"
+capsule_type: "Status"

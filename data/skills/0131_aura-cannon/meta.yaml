@@ -1,0 +1,8 @@
+order_index: 29
+id_hex_bytes:
+  - "31"
+  - "01"
+id_hex: "0x0131"
+name: "Aura Cannon"
+school: "Optical"
+capsule_type: "Attack"

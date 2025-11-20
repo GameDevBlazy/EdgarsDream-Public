@@ -1,0 +1,8 @@
+order_index: 218
+id_hex_bytes:
+  - "6E"
+  - "00"
+id_hex: "0x006E"
+name: "Photon Burst"
+school: "Optical"
+capsule_type: "Attack"

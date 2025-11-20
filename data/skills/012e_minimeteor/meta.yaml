@@ -1,0 +1,8 @@
+order_index: 93
+id_hex_bytes:
+  - "2E"
+  - "01"
+id_hex: "0x012E"
+name: "MiniMeteor"
+school: "Psycho"
+capsule_type: "Attack"

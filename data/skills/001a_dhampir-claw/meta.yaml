@@ -1,0 +1,8 @@
+order_index: 62
+id_hex_bytes:
+  - "1A"
+  - "00"
+id_hex: "0x001A"
+name: "Dhampir Claw"
+school: "Faith"
+capsule_type: "Attack"

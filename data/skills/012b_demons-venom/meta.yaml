@@ -1,0 +1,8 @@
+order_index: 87
+id_hex_bytes:
+  - "2B"
+  - "01"
+id_hex: "0x012B"
+name: "Demon's Venom"
+school: "Faith"
+capsule_type: "Attack"

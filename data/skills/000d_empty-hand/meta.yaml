@@ -1,0 +1,8 @@
+order_index: 46
+id_hex_bytes:
+  - "0D"
+  - "00"
+id_hex: "0x000D"
+name: "Empty Hand"
+school: "Ki"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 79
+id_hex_bytes:
+  - "25"
+  - "00"
+id_hex: "0x0025"
+name: "Stone Shot"
+school: "Psycho"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 228
+id_hex_bytes:
+  - "73"
+  - "00"
+id_hex: "0x0073"
+name: "Crystal Wall"
+school: "Psycho"
+capsule_type: "Defense"

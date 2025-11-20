@@ -1,0 +1,8 @@
+order_index: 67
+id_hex_bytes:
+  - "1C"
+  - "01"
+id_hex: "0x011C"
+name: "Piece of Fire"
+school: "Nature"
+capsule_type: "Attack"

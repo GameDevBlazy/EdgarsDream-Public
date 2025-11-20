@@ -1,0 +1,8 @@
+order_index: 246
+id_hex_bytes:
+  - "81"
+  - "00"
+id_hex: "0x0081"
+name: "Psycho Shell"
+school: "Psycho"
+capsule_type: "Defense"

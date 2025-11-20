@@ -1,0 +1,8 @@
+order_index: 321
+id_hex_bytes:
+  - "CC"
+  - "00"
+id_hex: "0x00CC"
+name: "Spore Schism"
+school: "Faith"
+capsule_type: "Attack"

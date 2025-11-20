@@ -1,0 +1,1109 @@
+# Start of Static Values
+- pos: 0x00
+  name: "Skill Text ID"
+  desc: "ID to load the skill name and skill description from"
+  type: U16
+- pos: 0x2
+  name: "Displayed Skill ID"
+  desc: "Skill ID as shown in game"
+  type: U16
+- pos: 0x4
+  name: "Register ID"
+  desc: "Set to 10 (0A) when skill should be usable."
+  type: U16
+- pos: 0x6
+  name: "Optional Skill ID"
+  desc: "Skill ID but DLCs dont use this. Set to 0 if unsure."
+  type: U16
+- pos: 0x08
+  name: "Rarity"
+  desc: "The in-game rarity, displayed as stars"
+  limit_low: 0
+  limit_high: 5
+  slider: true
+  type: U16
+- pos: 0xA
+  name: "??? Additional 1"
+  desc: "unsure what it does"
+  type: U16
+- pos: 0x0C
+  name: "??? Sound File ID"
+  desc: "Old name, not sure what it does"
+  type: U16
+- pos: 0x0E
+  name: "Capsule Type"
+  desc: "0 = Aura\n1 = Attack\n2 = Defense\n3 = Erase\n4 = Status\n5 = Special\n6 = Enviromental"
+  type: U16
+- pos: 0x10
+  name: "Skill Interaction Category"
+  desc: "Category set for other skills that rely on specific skills. Bundled blaster, Dance of Death, etc\n\n0 = nothing\n1 = for Dance of Death\n2 = Bundled Laser\n3 = Bundled Blaster\n4 = Crystallization"
+  type: U16
+- pos: 0x12
+  name: "School ID"
+  desc: "0 = Aura\n1 = Psycho\n2 = Optical\n3 = Nature\n4 = Ki\n5 = Faith"
+  limit_low: 0
+  limit_high: 5
+  slider: true
+  type: U16
+- pos: 0x14
+  name: "Animation Profile (Ground)"
+  desc: "Loads GROUNDED Animation Profile (check window->animation profile). It stores info about the animation, visual effects, hitbox animation frames, activation frames, lunge frames, cancel frames for multi attacks, grunts and gamepad vibration."
+  type: U16
+- pos: 0x16
+  name: "Animation Profile (Air)"
+  desc: "Loads AERIAL Animation Profile (check window->animation profile). It stores info about the animation, visual effects, hitbox animation frames, activation frames, lunge frames, cancel frames for multi attacks, grunts and gamepad vibration."
+  type: U16
+- pos: 0x18
+  name: "Combo 1 Animation Profile"
+  type: U16
+- pos: 0x1A
+  name: "Combo 2 Animation Profile"
+  type: U16
+- pos: 0x1C
+  name: "Combo 3 Animation Profile"
+  type: U16
+- pos: 0x1E
+  name: "Combo 4 Animation Profile"
+  type: U16
+- pos: 0x20
+  name: "Boss Skill Specific"
+  desc: "all skills have it at 0, no clue what it does, bosses have seemingly random numbers \ndiffused laser = 3012 (all), \negg bomb (1st one) = 3015, \nbody attack = 5001, \nbody attack (second) = 5002, \nsmart cell = 5017\npsycho wave (after smart cell) = 5007\npsycho wave (after smart cell) = 5003\nMirror Laser (boss) = 4031\nParalyze Barrier (boss) = 5017\nInterference (boss) = 5017\n Dust Cannon = 0\nBind Shot = 4049"
+  type: U16
+- pos: 0x22
+  name: "On Projectile Shot SFX"
+  desc: "Sound played when projectile is being shot."
+  type: U16
+- pos: 0x24
+  name: "Projectile flight SFX"
+  desc: "Sound played during flight of projectile. Meant to be used with looping sounds (ID 601+)"
+  type: U16
+- pos: 0x26
+  name: "Collision SFX"
+  desc: "Sound played when projectile/attack collides with walls or enemies."
+  type: U16
+- pos: 0x28
+  name: "Aura Cost"
+  desc: "The amount of Aura the skill costs."
+  type: U16
+- pos: 0x2A
+  name: "Level Decrease on Use"
+  desc: "Amount of levels lost when used"
+  type: U16
+- pos: 0x2C
+  name: "Cost Change on Use"
+  desc: "Aura cost change per use, set to 1 makes cost 1 -> 2 -> 3 -> 4 etc"
+  type: U16
+- pos: 0x2E
+  name: "Health Penalty"
+  desc: "Damage taken to caster when skill is used."
+  type: U16
+- pos: 0x30
+  name: "# of Uses"
+  desc: "How many times the skill can be used. Set this to 0 for infinite uses."
+  type: U16
+- pos: 0x32
+  name: "Allow Multi Skill (maybe more)"
+  desc: "If set to ID of skill (internal ID, not displayed), then allows to be used as a 'multi skill', possibly does more"
+  type: U16
+- pos: 0x34
+  name: "Additional 4"
+  type: U16
+- pos: 0x36
+  name: "Additional 5"
+  type: U16
+- pos: 0x38
+  name: "Additional 6"
+  type: U16
+- pos: 0x3A
+  name: "Additional 7"
+  type: U16
+- pos: 0x3C
+  name: "Additional 8"
+  type: U16
+- pos: 0x3E
+  name: "Additional 9"
+  type: U16
+- pos: 0x40
+  name: "Additional 10"
+  type: U16
+- pos: 0x42
+  name: "Additional 11"
+  type: U16
+- pos: 0x44
+  name: "Self Effect"
+  desc: "(needs research) An effect to be applied to the user."
+  type: U16
+- pos: 0x46
+  name: "Extra Button Effects"
+  desc: "Restrictions specifically applied to the button. \n0 = None\n1 = Can't use skill\n2 = Allows button to be held/charged\n3 = Cickable with error sound, can't use skill"
+  type: U16
+- pos: 0x48
+  name: "Requirement Type"
+  desc: "Extra requirements to use the skill, next field specifies how much. \n 0 = ?\n1 = hp amount below x\n2 = hp amount above x\n7 = Maximum Aura"
+  type: U16
+- pos: 0x4A
+  name: "Requirement Amount"
+  desc: "The amount of the type specified in Requirement Type needed to use the skill"
+  type: U16
+- pos: 0x4C
+  name: "Ground/Air Restrictions"
+  desc: "0 = Ground Only\n1 = Air Only\n2 = Both\n3 = Both but uses Air animation on both"
+  limit_low: 0
+  limit_high: 3
+  slider: true
+  type: U16
+- pos: 0x4E
+  name: "Skill Button Effect"
+  desc: "0 = Normal\n1 = Retainable\n2 = Lock Skill (Orb/SignOfSaints)"
+  type: U16
+- pos: 0x50
+  name: "??? Unknown 2"
+  docs: "seems random, dlc have it all set to 0"
+  type: U16
+# Start of Skill Set Conditionals
+# Skill Set Base Labels (to display if nothing or unknown is loaded)
+- pos: 0x52
+  name: "(No Conditional) Skill Set"
+  desc: "Determines what set of data is being used in subsequent bytes until 'Projectile Behaviour'. Has a bunch of Conditionals setup now. (used to be called Applied Status ID)"
+  type: U16
+- pos: 0x54
+  name: "(No Conditional) Restrictions"
+  type: U16
+- pos: 0x56
+  name: "(No Conditional) Strength Effect"
+  type: U16
+- pos: 0x58
+  name: "(No Conditional) Damage"
+  type: U16
+- pos: 0x5A
+  name: "(No Conditional) Effect Duration / Misc. Effects"
+  type: U16
+- pos: 0x5C
+  name: "(No Conditional) Target Hand Filter"
+  type: U16
+- pos: 0x5E
+  name: "(No Conditional) Additional 12"
+  type: U16
+- pos: 0x60
+  name: "(No Conditional) Target Hand Effect"
+  type: U16
+- pos: 0x62
+  name: "(No Conditional) Increase Stat"
+  type: U16
+- pos: 0x64
+  name: "(No Conditional) Status Enabler/StatusIDDuration"
+  type: U16
+- pos: 0x66
+  name: "(No Conditional) Unknown 3"
+  type: U16
+- pos: 0x68
+  name: "(No Conditional) Projectile Properties"
+  type: U16
+- pos: 0x6A
+  name: "(No Conditional) Projectile ID"
+  type: U16
+- pos: 0x6C
+  name: "(No Conditional) Collision Skill ID"
+  type: U16
+# Skill Set 0 (ATTACK/ERASE/SPECIAL)
+- pos: 0x52
+  name: "ATTACK/ERASE/SPECIAL Skill Set"
+  desc: "Determines what set of data is being used in subsequent bytes until 'Projectile Behaviour'. Has a bunch of Conditionals setup now."
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x54
+  name: "Range"
+  desc: "(Conditional) Sets range of skill and display, some skills (frighten/massive quake/disintegrate/turb) are set to 2 not sure why.\n\n0 = default\n1 = long"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x56
+  name: "Damage Calculation"
+  desc: "(Conditional) \n\n1 = Judge of Anubis \n2 = Joke of Anubis \n3 = Memory Of Battle \n4 = Compressor (Scales off n# of consumed defenses)\n5 = Scales off number of consumed erase skills \n6 = Scales off number of consumed environments\n7 = Scales off number of consumed special skills\n8 = Scales off number of consumed aura particles\n9 = Scales off number of consumed attacks (divided by original damage)\n10-14 = Scales off number of attacks in hand,  multiplied by X (damage)\n15 = Scales off number of aura particles in hand, multiplied by X (damage)\n16 = Scales off number of attacks in hand..??? (TEST NEEDED)\n17 = Psycho Burst/Wave (scales off target level)\n18 = Aura Backflow (scales off target aura)\n19 = Targets level divided by X (damage)\n20 = Targets aura divided by X (damage)\n21 = Scales off of aura spent\n22 = Aura spent divided by X (dmg)\n23 = targets number of unassigned buttons multiplied by (damage value) = 'x' dmg\n24 = your own number of unassigned buttons multiplied by (damage value) = 'x' dmg\n\n25 = STR = number set here checks for skill with the ID (in-game id list lookup)\nthat skill, if app stat id is 0, gets checked for its str value\nthe final damage this skill does is equal to all str added together of that specific skill held in hand\n\n26 = Depends on DMG Value of the Skill :\nDMG 1 = Dance of Death effect\nDMG 2 = Bundled Laser\nDMG 3 = Bundled Blaster \nDMG 4 = Crystallization \n\n27 = Fake Excal, but does x1 instead of x2\n28 = Fake Excalibur (Excaliber) (x2)\n29 = Fake Excal, but does x3 instead of x2\n\n30 = Total Aura Particles on the field\n31 = Unable to do damage with this skill and cant be buffed to do damage"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x58
+  name: "Damage or Factor"
+  desc: "(Conditional)\n\nValue used for the Main Effect. Mostly Damage"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x5A
+  name: "Damage increase per use"
+  desc: "Increases the damage per use of skill"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x5C
+  name: "Target Hand Filter"
+  desc: "(conditional) specifies which skill to target/erase. Reason for why it lists colors here cause thats what it targets, since specials are not always actually specials internally\n\n1 = Attacks\n2 = Defense\n3 = purples\n4 = greens\n5 = yellows\n6 = Aura particle\n7 = any???\n8 = Non-Attack Non-defense\n9 = any?"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x5E
+  name: "Target Hand Priority"
+  desc: "(conditional) Priority order of what skills to taget.\n\n0 = random\n1 = highest aura cost\n2 = lowest aura cost\n3 = ???\n4 = matching slot only"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x60
+  name: "Target Hand Skill Amount"
+  desc: "(conditional) how many skills should be targeted in the hand of the target. 0-4 | 5+ crashes"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x62
+  name: "Hit Effect / Increase Stat"
+  desc: "(conditional) Effect applied when target is hit.\n\n1 = target's aura subtracted by x\n2 = Target's level subtracted by x\n3 = target's aura multiplied or divided by x\n4 = target's level multiplied or divided by x\n5 = Explode\n6 = Paralysis \n7 = Freeze \n8 = Poison \n9 = Steal x health\n10 = Steal x aura\n11 = Steal x level\n12 = Buffs by x STR\n13 = Buffs by x SPD\n14 = Buffs by x HOMING \n15 = Buffs by x AURA REGEN\n16 = Freeze same skill button for x duration\n17 = Clear ALL of target’s effects/status\n18 = Auto-capture\n19 = Apply “Backdraft” effect for x duration\n20 = Apply “Soul Cage” effect for x duration\n21 = Apply “Nature’s Blessing” effect for x duration \n22 = Apply “Berserk” effect for x duration \n23 = Target cannot use STR>=x or STR=X skills for duration\n24 = Target cannot use STR<=x or STR=X skills for duration\n25-30 = Target cannot use {attack, defense, erase, env, status, special} type skills (by capsule type) for x duration\n31 = Apply “Fatigue” effect for x duration \n32 = Multiply (x=1) or divide (x=-1) cost of target’s skills by 2 for x duration\n33 = Apply “Necronomicon” effect for x duration\n34 = Apply “Memory Lapse” effect for x duration\n35 = Apply “Void” effect for x duration\n36 = Modify target capsule spawn speed by x for duration\n37 = Apply “Confusion” effect for x duration (controls inverted)\n38 = Erase all environments\n39 = Erase all environments and clear target’s modifiers\n40 = Force target to lock on to you?\n41 = Apply “Dazzle” effect to target for x duration (skill buttons randomized)\n42 = Trigger\n43 = Heals Target by x\n44 = Increases Target's Level by x \n45 = TPs Target to user spawnpoint\n46 = Fusion\n47 = Set target’s level to lowest among players (Vicious Balance)\n48 = “Overheat” effect, multiplied by x\n49 = “Meltdown” effect, multiplied by x\n50 = Annoying Gift\n51 = Armaros\n52 = ? (no skill has this)"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x64
+  name: "Effect Duration/Potency 1"
+  desc: "(conditional) depending on Hit Effect, can be either Duration or Potency of the effect"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x66
+  name: "Effect Duration/Potency 2"
+  desc: "(conditional) depending on Hit Effect, can be either Duration or Potency of the effect"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x68
+  name: "Shield Penetration"
+  desc: "(conditional) \n\n 0 = Default \n 1 = Pierce Effect \n 2 = Penetrate Defenses (unblockable) \n might be more"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x6A
+  name: "Collision Behaviour"
+  desc: "(conditional) \n\n0 = collides with everything \n1 = collides with everything, does not cause craters, cannot destroy destructables\n 2 = ignores all collision, create craters, destroys destructables it goes through\n 3 = ignore all collision, can still hit players"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x6C
+  name: "???"
+  desc: "unused, set to 0 for all skills"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 0
+  type: U16
+# Skill Set 1 (ERASE)
+- pos: 0x52
+  name: "ERASE Skill Set"
+  desc: "Determines what set of data is being used in subsequent bytes until 'Projectile Behaviour'. Has a bunch of Conditionals setup now."
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 1
+  type: U16
+- pos: 0x54
+  name: "Erase Capsule Target"
+  desc: "(Conditional) 0 = any capsule type\n1 = aura capsule user is standing on\n2 = everyone's aura particles\n3 = non-aura capsule user's standing on\n4 = everyone else’s capsules\n5 = everyone's capsules"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 1
+  type: U16
+- pos: 0x56
+  name: "Capsule Effect Type"
+  desc: "(Conditional) 0 = delete capsules (violent change, shatter, diabolical trick, eliminate)\n1 = capture capsule user stands on\n2 = change the world\n3 = particle convert"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 1
+  type: U16
+- pos: 0x58
+  name: "??? 2 / Damage"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 1
+  type: U16
+- pos: 0x5A
+  name: "??? 3 / Effect Duration"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 1
+  type: U16
+- pos: 0x5C
+  name: "??? 4 / Target Hand Filter"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 1
+  type: U16
+- pos: 0x5E
+  name: "??? 5 / Additional 12"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 1
+  type: U16
+- pos: 0x60
+  name: "??? 6 / Target Hand Effect"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 1
+  type: U16
+- pos: 0x62
+  name: "??? 7 / Increase Stat"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 1
+  type: U16
+- pos: 0x64
+  name: "??? 8 / Status Enabler / Status ID Duration"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 1
+  type: U16
+- pos: 0x66
+  name: "??? 9 / Unknown 3"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 1
+  type: U16
+- pos: 0x68
+  name: "??? 10 / Projectile Properties"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 1
+  type: U16
+- pos: 0x6A
+  name: "??? 11 / Projectile ID"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 1
+  type: U16
+- pos: 0x6C
+  name: "???"
+  desc: "unused, set to 0 for all skills"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 1
+  type: U16
+# SKILL SET 2 (DEFENSIVE)
+- pos: 0x52
+  name: "DEFENSIVE Skill Set"
+  desc: "Determines what set of data is being used in subsequent bytes until 'Projectile Behaviour'. Has a bunch of Conditionals setup now."
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 2
+  type: U16
+- pos: 0x54
+  name: "Defense Type"
+  desc: "(Conditional)\n\n0 = Barrier\n1 = Shelter\n2 = Course\n3 = Brush\n4 = Reflect\n5 = Absorb\n6 = Course? (About Face, Reverse only)\n7 = Autoshield"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 2
+  type: U16
+- pos: 0x56
+  name: "??? 1 / Strength Effect"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 2
+  type: U16
+- pos: 0x58
+  name: "Shield Active Time"
+  desc: "(Conditional) Amount of frames the shield should be active. Start frame is set in animation profile. Can exceed animation time and will last longer."
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 2
+  type: U16
+- pos: 0x5A
+  name: "Shield Strength"
+  desc: "(Conditional) Amount of frames the shield should be active. Start frame is set in animation profile. Can exceed animation time and will last longer."
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 2
+  type: U16
+- pos: 0x5C
+  name: "??? 2 / Target Hand Filter"
+  desc: "(Conditional) Needs research but Dark Protection has 1 (probably cost increase per use?)"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 2
+  type: U16
+- pos: 0x5E
+  name: "Anti Pierce Enable"
+  desc: "(Conditional) \n\n0 = off\n1 = enable anti pierce"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 2
+  type: U16
+- pos: 0x60
+  name: "Erase All or Melee Only"
+  desc: "(Conditional) Which type of attack it can erase. \n\n0 = Both\n1 = Melee Only"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 2
+  type: U16
+- pos: 0x64
+  name: "Effect Duration"
+  desc: "(Conditional) Effect duration of the shield effect that is applied to the attacker."
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 2
+  type: U16
+- pos: 0x62
+  name: "Successful Shield Effect"
+  desc: "(Conditional) \n\n0 = No effect\n1 = Health increase = damage blocked\n2 = Aura gained = damage blocked\n3 = Erases (Melee and Ranged)\n4 = Paralysis\n5 = Freeze\n6 = Poison (This is replaced as Paralysis in singleplayer)\n7 = Learning (Can learn Melees and Ranged)"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 2
+  type: U16
+- pos: 0x66
+  name: "??? 4 / Unknown 3"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 2
+  type: U16
+- pos: 0x68
+  name: "??? 5 / Projectile Properties"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 2
+  type: U16
+- pos: 0x6A
+  name: "??? 6 / Projectile ID"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 2
+  type: U16
+- pos: 0x6C
+  name: "???"
+  desc: "unused, set to 0 for all skills"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 2
+  type: U16
+# SKILL SET 3 (SPECIAL)
+- pos: 0x52
+  name: "SPECIAL Skill Set"
+  desc: "Determines what set of data is being used in subsequent bytes until 'Projectile Behaviour'. Has a bunch of Conditionals setup now."
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 3
+  type: U16
+- pos: 0x54
+  name: "Special Type"
+  desc: "(Conditional) Demons wing somehow is actually a status applied to self.\n\n0 = jump\n2 = retreat\n3 = levitate\n4 = call\n5 = skywalk\n6 = return\n7 = surprise attack, charge\n8 = Dash\n9 = native jump"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 3
+  type: U16
+- pos: 0x56
+  name: "Special Effect"
+  desc: "(Conditional)\n\nHeight for Jump\nDistance for Dash\n"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 3
+  type: U16
+- pos: 0x58
+  name: "Duration"
+  desc: "(Conditional) Duration of special effect, how long you float during"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 3
+  type: U16
+- pos: 0x5A
+  name: "Skill Speed-up"
+  desc: "(conditional) for jumps and float, increases basically all speeds. Going up, going down, transitions between animations in jump. Feels like the speedhack option in cheat engine"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 3
+  type: U16
+- pos: 0x5C
+  name: "??? 1 / Target Hand Filter"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 3
+  type: U16
+- pos: 0x5E
+  name: "??? 2 / Additional 12"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 3
+  type: U16
+- pos: 0x60
+  name: "??? 3 / Target Hand Effect"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 3
+  type: U16
+- pos: 0x62
+  name: "??? 4 / Increase Stat"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 3
+  type: U16
+- pos: 0x64
+  name: "??? 5 / Status Enabler/StatusIDDuration"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 3
+  type: U16
+- pos: 0x66
+  name: "??? 6 / Unknown 3"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 3
+  type: U16
+- pos: 0x68
+  name: "??? 7 / Projectile Properties"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 3
+  type: U16
+- pos: 0x6A
+  name: "??? 8 / Projectile ID"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 3
+  type: U16
+- pos: 0x6C
+  name: "???"
+  desc: "unused, set to 0 for all skills"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 3
+  type: U16
+# SKILL SET 4 (STATUS)
+- pos: 0x52
+  name: "STATUS Skill Set"
+  desc: "Determines what set of data is being used in subsequent bytes until 'Projectile Behaviour'. Has a bunch of Conditionals setup now."
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 4
+  type: U16
+- pos: 0x54
+  name: "Affected Target"
+  desc: "(Conditional) Who gets affected by the status.\n\n0 = Affect Self\n1 = Affect locked on Target\n2 = Affect All"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 4
+  type: U16
+- pos: 0x56
+  name: "Status Effect 1 EFFECT TYPE"
+  desc: "(Conditional)\n\n1 (increases level by x)\n2 = increases aura by x, akin to graceful woods\n3 = Heals for x\n4 = buffs for x STR\n5 = buffs for x SPD\n6 = buffs for x ACQ/HOMING\n7 = buffs for x AURA RGN\n8 = clears self-stats\n9 = multiplies aura by x\n10 = doubles level\n11 = Interesting outlier, has no visible effect, but can cancel self animation) play dead, target regains hp\n12 = optical camo\n13 = demon's wing\n14 = void effect\n15 = Interesting outlier, has no visible effect aside from being able to move around before skill animation has finished, also bugs anim) \n16 = Annoying Gift, likely unaffected by x, you must be locked on.\n18 = Doppelganger, you must be locked on\n19 = Relearn, likely unaffected by x\n20 = Mephisto's Pact, likely unaffected by x\n21 = Recall\n22 = Bravery Decision\n23 = Armaros, likely unaffected by x)\n 24 to 70 (unknown/no effect)"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 4
+  type: U16
+- pos: 0x58
+  name: "Status Effect 2 EFFECT TYPE"
+  desc: "(Conditional)\n\n1 (increases level by x)\n2 = increases aura by x, akin to graceful woods\n3 = Heals for x\n4 = buffs for x STR\n5 = buffs for x SPD\n6 = buffs for x ACQ/HOMING\n7 = buffs for x AURA RGN\n8 = clears self-stats\n9 = multiplies aura by x\n10 = doubles level\n11 = Interesting outlier, has no visible effect, but can cancel self animation) play dead, target regains hp\n12 = optical camo\n13 = demon's wing\n14 = void effect\n15 = Interesting outlier, has no visible effect aside from being able to move around before skill animation has finished, also bugs anim) \n16 = Annoying Gift, likely unaffected by x, you must be locked on.\n18 = Doppelganger, you must be locked on\n19 = Relearn, likely unaffected by x\n20 = Mephisto's Pact, likely unaffected by x\n21 = Recall\n22 = Bravery Decision\n23 = Armaros, likely unaffected by x)\n 24 to 70 (unknown/no effect)"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 4
+  type: U16
+- pos: 0x5A
+  name: "Status Effect 3 EFFECT TYPE"
+  desc: "(Conditional)\n\n1 (increases level by x)\n2 = increases aura by x, akin to graceful woods\n3 = Heals for x\n4 = buffs for x STR\n5 = buffs for x SPD\n6 = buffs for x ACQ/HOMING\n7 = buffs for x AURA RGN\n8 = clears self-stats\n9 = multiplies aura by x\n10 = doubles level\n11 = Interesting outlier, has no visible effect, but can cancel self animation) play dead, target regains hp\n12 = optical camo\n13 = demon's wing\n14 = void effect\n15 = Interesting outlier, has no visible effect aside from being able to move around before skill animation has finished, also bugs anim) \n16 = Annoying Gift, likely unaffected by x, you must be locked on.\n18 = Doppelganger, you must be locked on\n19 = Relearn, likely unaffected by x\n20 = Mephisto's Pact, likely unaffected by x\n21 = Recall\n22 = Bravery Decision\n23 = Armaros, likely unaffected by x)\n 24 to 70 (unknown/no effect)"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 4
+  type: U16
+- pos: 0x5C
+  name: "Status Effect 4 EFFECT TYPE"
+  desc: "(Conditional)\n\n1 (increases level by x)\n2 = increases aura by x, akin to graceful woods\n3 = Heals for x\n4 = buffs for x STR\n5 = buffs for x SPD\n6 = buffs for x ACQ/HOMING\n7 = buffs for x AURA RGN\n8 = clears self-stats\n9 = multiplies aura by x\n10 = doubles level\n11 = Interesting outlier, has no visible effect, but can cancel self animation) play dead, target regains hp\n12 = optical camo\n13 = demon's wing\n14 = void effect\n15 = Interesting outlier, has no visible effect aside from being able to move around before skill animation has finished, also bugs anim) \n16 = Annoying Gift, likely unaffected by x, you must be locked on.\n18 = Doppelganger, you must be locked on\n19 = Relearn, likely unaffected by x\n20 = Mephisto's Pact, likely unaffected by x\n21 = Recall\n22 = Bravery Decision\n23 = Armaros, likely unaffected by x)\n 24 to 70 (unknown/no effect)"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 4
+  type: U16
+- pos: 0x5E
+  name: "Status Effect 1 POTENCY"
+  desc: "(Conditional)\n\nSets the timer in frames for 'Status Effect 1'"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 4
+  type: U16
+- pos: 0x60
+  name: "Status Effect 2 POTENCY"
+  desc: "(Conditional)\n\nSets the timer in frames for 'Status Effect 2'"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 4
+  type: U16
+- pos: 0x62
+  name: "Status Effect 3 POTENCY"
+  desc: "(Conditional)\n\nSets the timer in frames for 'Status Effect 3'"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 4
+  type: U16
+- pos: 0x64
+  name: "Status Effect 4 POTENCY"
+  desc: "(Conditional)\n\nSets the timer in frames for 'Status Effect 4'"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 4
+  type: U16
+- pos: 0x66
+  name: "Status Effect 1 TIMER"
+  desc: "(Conditional)\n\nSets the potency/strength 'Status Effect 1'"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 4
+  type: U16
+- pos: 0x68
+  name: "Status Effect 2 TIMER"
+  desc: "(Conditional)\n\nSets the potency/strength 'Status Effect 2'"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 4
+  type: U16
+- pos: 0x6A
+  name: "Status Effect 3 TIMER"
+  desc: "(Conditional)\n\nSets the potency/strength 'Status Effect 3'"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 4
+  type: U16
+- pos: 0x6C
+  name: "Status Effect 4 TIMER"
+  desc: "(Conditional)\n\nSets the potency/strength 'Status Effect 4'"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 4
+  type: U16
+# SKILL SET 5 (ENVIRONMENT)
+- pos: 0x52
+  name: "ENVIRONMENTAL Skill Set"
+  desc: "Determines what set of data is being used in subsequent bytes until 'Projectile Behaviour'. Has a bunch of Conditionals setup now."
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 5
+  type: U16
+- pos: 0x54
+  name: "Enviromental Effect"
+  desc: "(Conditional) 0 = Increase/Decrease Damage\n1 = Speed\n2 = Homing/Accuracy\n3 = Aura regen\n4 = Paralysis\n5 = Freeze\n6 = Poison\n7 = Camo? Like people can’t lock onto you? Idk (doesnt seem to work)\n8 = Invisibility\n9 = Forces all to lock on to player x (if set above 4, nobody can lock on to anybody)\n10 = Projectile speed (what does this mean???)\n11 = Flight (no gravity)\n12 = Prohibit captures? (can’t pick up capsules)\n13-16 = Prohibit using slots 0-3\n17 = Backdraft (-1 health on skill use)\n18 = Soul Cage (-1 health on capsule capture)\n19 = Nature Blessing (+1 health per aura capture)\n20 = Berserk (all skills pierce) \n21 = Prohibit damage>=X\n22 = Prohibit damage<=X\n23 = Prohibit attacks (these next few are based on capsule type, not stat_id)\n24 = Prohibit defense\n25 = Commandments (Prohibit erase)\n26 = Prohibit environments\n27 = Prohibit status\n28 = Prohibit special\n29 = Fatigue (aura regen halted while moving)\n30 = Cost multiplier (-1 for half, +1 for double)\n31 = Necronomicon\n32 = Memory Lapse\n33 = Void\n34 = Capsule spawn speed (adds to it, 450 will double spawn speed)\n35 = Confusion (inverts directional controls)\n36 = Dazzle VISUAL (DOES NOT APPLY DAZZLE EFFECT)\n37 = Mind Reading\n38 = Prohibit cost>=X\n39 = Prohibit cost<=X\n40-45 = Prohibit school (aura, psycho, optical, nature, ki, faith)"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 5
+  type: U16
+- pos: 0x56
+  name: "Environmental pickup delay"
+  desc: "(Conditional) Time after you placed the environmental until its able to be picked up."
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 5
+  type: U16
+- pos: 0x58
+  name: "Environmental Potency"
+  desc: "If environmental has a variable like lunar force, this sets the potency."
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 5
+  type: U16
+- pos: 0x5A
+  name: "Environmental Timer"
+  desc: "If not 0, sets the amount of frames before the environmental dissapears automatically. (like 1 minute enviros, 1800 = 1 min"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 5
+  type: U16
+- pos: 0x5C
+  name: "??? 3 / Target Hand Filter"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 5
+  type: U16
+- pos: 0x5E
+  name: "??? 4 / Additional 12"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 5
+  type: U16
+- pos: 0x60
+  name: "??? 5 / Target Hand Effect"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 5
+  type: U16
+- pos: 0x62
+  name: "??? 6 / Increase Stat"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 5
+  type: U16
+- pos: 0x64
+  name: "??? 7 / Status Enabler / Status ID Duration"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 5
+  type: U16
+- pos: 0x66
+  name: "??? 8 / Unknown 3"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 5
+  type: U16
+- pos: 0x68
+  name: "??? 9 / Projectile Properties"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 5
+  type: U16
+- pos: 0x6A
+  name: "??? 10 / Projectile ID"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 5
+  type: U16
+- pos: 0x6C
+# SKILL SET 6 (COPY/RECOLLECTION)
+- pos: 0x52
+  name: "COPY/RECOLLECTION Skill Set"
+  desc: "Determines what set of data is being used in subsequent bytes until 'Projectile Behaviour'. Has a bunch of Conditionals setup now."
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 6
+  type: U16
+- pos: 0x54
+  name: "Main Effect"
+  desc: "(Conditional\n\n0 = Recollection (last skill you used)\n1 = Copy (last skill that inflicted damage)"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 6
+  type: U16
+- pos: 0x56
+  name: "??? 1 / Strength Effect"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 6
+  type: U16
+- pos: 0x58
+  name: "??? 2 / Damage"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 6
+  type: U16
+- pos: 0x5A
+  name: "??? 3 / Effect Duration"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 6
+  type: U16
+- pos: 0x5C
+  name: "??? 4 / Target Hand Filter"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 6
+  type: U16
+- pos: 0x5E
+  name: "??? 5 / Additional 12"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 6
+  type: U16
+- pos: 0x60
+  name: "??? 6 / Target Hand Effect"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 6
+  type: U16
+- pos: 0x62
+  name: "??? 7 / Increase Stat"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 6
+  type: U16
+- pos: 0x64
+  name: "??? 8 / Status Enabler / Status ID Duration"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 6
+  type: U16
+- pos: 0x66
+  name: "??? 9 / Unknown 3"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 6
+  type: U16
+- pos: 0x68
+  name: "??? 10 / Projectile Properties"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 6
+  type: U16
+- pos: 0x6A
+  name: "??? 11 / Projectile ID"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 6
+  type: U16
+- pos: 0x6C
+  name: "???"
+  desc: "unused, set to 0 for all skills"
+  conditions:
+    - pos: 0x52
+      comparison: "="
+      val: 6
+  type: U16
+# TO BE SORTED BELOW
+- pos: 0x6E
+  name: "On-Hit Animation (0-2 dmg)"
+  desc: "Animation played on hit target during 0-2 accumulated damage. Accumulated damage gets tracked with a timer."
+  type: U16
+- pos: 0x70
+  name: "On-Hit Animation (3-4 dmg)"
+  desc: "Animation played on hit target during 3-4 accumulated damage. Accumulated damage gets tracked with a timer."
+  type: U16
+- pos: 0x72
+  name: "On-Hit Animation (5+ dmg)"
+  desc: "Animation played on hit target during 5+ accumulated damage. Accumulated damage gets tracked with a timer."
+  type: U16
+- pos: 0x74
+  name: "On-Hit Animation (Erase/Status/Effects)"
+  desc: "Animation played on hit by an erase or status effect."
+  type: U16
+- pos: 0x76
+  name: "Unknown 5"
+  desc: "This field's purpose is unknown. It might even be unused."
+  type: U16
+- pos: 0x78
+  name: "Can-Hit Requirement"
+  desc: "Decides when the target can get hit: 0 = normal | 2 = Can never hit (maybe) | 6 = during knockdown (backdraft bullet) | 7 = normal + knockdown | 8 = only during invincibility"
+  type: U16
+#Projectile Behaviour 
+- pos: 0x7A
+  name: "Projectile Behaviour"
+  desc: "How a projectile behaves, changes a lot of values follwing after. \n\n0 = Straight/normal (ex. Flame Bullet)\n1 = Parabola\n2 = Fall\n3 = Reserved for boss skills\n4 = All/Auto (depends on skill duration)\n = Crawler\n6 = Arc/multishot\n7 = Fast rain (ex. Killer Satelite)\n8 = Mine place (ex. Timer Mine) (type determined by skill duration: 0=timer, 1=sensor, 2=remote)\n9 = Mine explode (ex. Photon Wave)\n10 = Move (ex. Tornado)\n11 = Power/Kinesis-type\n12 = Blade Melee (ex. Psycho Knife)\n13 = Kick, Punch (ex. Hyperkick, DOD)\n14 = Pursuit-type (requires knocked-down target)\n15 = Medium range hole (Ex. Gravity Press)\n16 = All hole (Ex. Meltdown)\n17 = Ricochet\n18 = More boss skills\n19 = Unused\n20 = Rain (Ex. Rain of Rocks)"
+  type: U16
+- pos: 0x7C
+  name: "PB 1 | Skill Duration/HitboxSize"
+  desc: "I don't fully understand this parameter yet, you can find more info on Nuion's\n[Attack Skill template spreadsheet](https://docs.google.com/spreadsheets/d/1zGqdi0Oeq14YHuMItYi2Qwhj4RhWZxho4hT7MLqRKCg). The skill duration and hit range parameters are both single bytes, which are merged into 1 parameter on the spreadsheet."
+  type: U16
+- pos: 0x7E
+  name: "PB 2 | Expand Skill Width / Start Speed"
+  desc: "The speed at which the projectile moves when first fired. It has 2 names because it changes meaning depending on other skill data."
+  type: U16
+- pos: 0x80
+  name: "PB 3 | Animation Size / Acceleration"
+  desc: "How quickly the projectile accelerates to reach its end speed. It has 2 names because it changes meaning depending on other skill data."
+  type: U16
+- pos: 0x82
+  name: "PB 4 | Projectile End Speed / Projectile Rain Count"
+  desc: "The speed at which the projectile stops accelerating, or how much rain it produces. Changes meaning depending on other skill data."
+  type: U16
+- pos: 0x84
+  name: "PB 5 | Homing Strength / Accuracy"
+  desc: "On a scale of 0 - 100: How strongly the projectile tracks its target."
+  type: U16
+- pos: 0x86
+  name: "PB 6 | Animation Height"
+  desc: "For rain skills, sets the height at which the rain starts."
+  type: U16
+- pos: 0x88
+  name: "PB 7 | Extra 1"
+  desc: "For Rains: Radius in which projectiles spawn in"
+  type: U16
+- pos: 0x8A
+  name: "PB 8 | Extra 2"
+  desc: "For Rains: 'Chase' speed of the rain"
+  type: U16
+- pos: 0x8C
+  name: "PB9 | Extra 3"
+  desc: "For Rains: Projectile falling speed, can be negative"
+  type: U16
+- pos: 0x8E
+  name: "PB10 | Extra 4"
+  docs: ""
+  type: U16
+# PROJECTILE BEHAVIOUR 0 = Straight/normal
+- pos: 0x7A
+  name: "Projectile Behaviour STRAIGHT/NORMAL"
+  desc: ""
+  conditions:
+    - pos: 0x7A
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x7C
+  name: "PB 1 | Skill Duration/HitboxSize"
+  desc: ""
+  conditions:
+    - pos: 0x7A
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x7E
+  name: "PB 2 | Expand Skill Width / Start Speed"
+  desc: ""
+  conditions:
+    - pos: 0x7A
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x80
+  name: "PB 3 | Animation Size / Acceleration"
+  desc: ""
+  conditions:
+    - pos: 0x7A
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x82
+  name: "PB 4 | Projectile End Speed / Projectile Rain Count"
+  desc: ""
+  conditions:
+    - pos: 0x7A
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x84
+  name: "PB 5 | Homing Strength / Accuracy"
+  desc: ""
+  conditions:
+    - pos: 0x7A
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x86
+  name: "PB 6 | Animation Height"
+  desc: "For rain skills, sets the height at which the rain starts."
+  conditions:
+    - pos: 0x7A
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x88
+  name: "PB 7 | Extra 1"
+  desc: "For Rains: Radius in which projectiles spawn in"
+  conditions:
+    - pos: 0x7A
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x8A
+  name: "PB 8 | Extra 2"
+  desc: "For Rains: 'Chase' speed of the rain"
+  conditions:
+    - pos: 0x7A
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x8C
+  name: "PB9 | Extra 3"
+  desc: "For Rains: Projectile falling speed, can be negative"
+  conditions:
+    - pos: 0x7A
+      comparison: "="
+      val: 0
+  type: U16
+- pos: 0x8E
+  name: "PB10 | Extra 4"
+  docs: ""
+  conditions:
+    - pos: 0x7A
+      comparison: "="
+      val: 0
+  type: U16

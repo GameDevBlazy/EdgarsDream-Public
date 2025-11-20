@@ -1,0 +1,8 @@
+order_index: 89
+id_hex_bytes:
+  - "2C"
+  - "01"
+id_hex: "0x012C"
+name: "Rebirth"
+school: "Faith"
+capsule_type: "Special"

@@ -1,0 +1,8 @@
+order_index: 146
+id_hex_bytes:
+  - "4A"
+  - "00"
+id_hex: "0x004A"
+name: "Ki Cannon"
+school: "Ki"
+capsule_type: "Attack"

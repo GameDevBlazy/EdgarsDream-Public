@@ -1,0 +1,8 @@
+order_index: 91
+id_hex_bytes:
+  - "2D"
+  - "01"
+id_hex: "0x012D"
+name: "Delay Bomb"
+school: "Psycho"
+capsule_type: "Attack"

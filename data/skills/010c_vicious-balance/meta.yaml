@@ -1,0 +1,8 @@
+order_index: 45
+id_hex_bytes:
+  - "0C"
+  - "01"
+id_hex: "0x010C"
+name: "Vicious Balance"
+school: "Faith"
+capsule_type: "Erase"

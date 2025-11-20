@@ -1,0 +1,8 @@
+order_index: 319
+id_hex_bytes:
+  - "CA"
+  - "00"
+id_hex: "0x00CA"
+name: "Memory Lapse"
+school: "Ki"
+capsule_type: "Environment"

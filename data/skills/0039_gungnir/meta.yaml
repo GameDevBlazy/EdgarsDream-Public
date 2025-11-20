@@ -1,0 +1,8 @@
+order_index: 112
+id_hex_bytes:
+  - "39"
+  - "00"
+id_hex: "0x0039"
+name: "Gungnir"
+school: "Optical"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 303
+id_hex_bytes:
+  - "BA"
+  - "00"
+id_hex: "0x00BA"
+name: "Return to Nature"
+school: "Nature"
+capsule_type: "Erase"

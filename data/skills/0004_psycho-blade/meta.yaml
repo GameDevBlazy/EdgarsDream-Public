@@ -1,0 +1,8 @@
+order_index: 34
+id_hex_bytes:
+  - "04"
+  - "00"
+id_hex: "0x0004"
+name: "Psycho Blade"
+school: "Psycho"
+capsule_type: "Attack"

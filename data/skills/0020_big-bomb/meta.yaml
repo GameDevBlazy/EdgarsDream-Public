@@ -1,0 +1,8 @@
+order_index: 74
+id_hex_bytes:
+  - "20"
+  - "00"
+id_hex: "0x0020"
+name: "Big Bomb"
+school: "Psycho"
+capsule_type: "Attack"

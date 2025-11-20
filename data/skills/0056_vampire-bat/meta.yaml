@@ -1,0 +1,8 @@
+order_index: 170
+id_hex_bytes:
+  - "56"
+  - "00"
+id_hex: "0x0056"
+name: "Vampire Bat"
+school: "Faith"
+capsule_type: "Attack"

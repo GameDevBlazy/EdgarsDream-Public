@@ -1,0 +1,8 @@
+order_index: 22
+id_hex_bytes:
+  - "24"
+  - "01"
+id_hex: "0x0124"
+name: "Swift Kick"
+school: "Ki"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 114
+id_hex_bytes:
+  - "3A"
+  - "00"
+id_hex: "0x003A"
+name: "Finisher"
+school: "Optical"
+capsule_type: "Attack"

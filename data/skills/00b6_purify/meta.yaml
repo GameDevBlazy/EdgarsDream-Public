@@ -1,0 +1,8 @@
+order_index: 299
+id_hex_bytes:
+  - "B6"
+  - "00"
+id_hex: "0x00B6"
+name: "Purify"
+school: "Nature"
+capsule_type: "Erase"

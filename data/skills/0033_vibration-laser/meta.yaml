@@ -1,0 +1,8 @@
+order_index: 100
+id_hex_bytes:
+  - "33"
+  - "00"
+id_hex: "0x0033"
+name: "Vibration Laser"
+school: "Optical"
+capsule_type: "Attack"

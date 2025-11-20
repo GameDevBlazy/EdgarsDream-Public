@@ -1,0 +1,8 @@
+order_index: 181
+id_hex_bytes:
+  - "5B"
+  - "01"
+id_hex: "0x015B"
+name: "Freeze Shot"
+school: "Psycho"
+capsule_type: "Status"

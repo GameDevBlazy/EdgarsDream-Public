@@ -1,0 +1,8 @@
+order_index: 219
+id_hex_bytes:
+  - "6E"
+  - "01"
+id_hex: "0x016E"
+name: "Failing Wall"
+school: "Nature"
+capsule_type: "Defense"

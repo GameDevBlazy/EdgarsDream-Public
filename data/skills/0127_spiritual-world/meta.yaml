@@ -1,0 +1,8 @@
+order_index: 25
+id_hex_bytes:
+  - "27"
+  - "01"
+id_hex: "0x0127"
+name: "Spiritual World"
+school: "Faith"
+capsule_type: "Environment"

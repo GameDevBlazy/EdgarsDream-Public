@@ -1,0 +1,8 @@
+order_index: 159
+id_hex_bytes:
+  - "50"
+  - "01"
+id_hex: "0x0150"
+name: "Vacuum Bullet"
+school: "Ki"
+capsule_type: "Special"

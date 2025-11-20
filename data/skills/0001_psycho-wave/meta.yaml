@@ -1,0 +1,8 @@
+order_index: 31
+id_hex_bytes:
+  - "01"
+  - "00"
+id_hex: "0x0001"
+name: "Psycho Wave"
+school: "Psycho"
+capsule_type: "Attack"

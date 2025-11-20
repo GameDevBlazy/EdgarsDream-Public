@@ -1,0 +1,8 @@
+order_index: 307
+id_hex_bytes:
+  - "BE"
+  - "00"
+id_hex: "0x00BE"
+name: "Reduce Gravity"
+school: "Psycho"
+capsule_type: "Environment"

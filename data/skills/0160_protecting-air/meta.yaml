@@ -1,0 +1,8 @@
+order_index: 191
+id_hex_bytes:
+  - "60"
+  - "01"
+id_hex: "0x0160"
+name: "Protecting Air"
+school: "Nature"
+capsule_type: "Defense"

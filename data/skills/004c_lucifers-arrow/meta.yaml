@@ -1,0 +1,8 @@
+order_index: 150
+id_hex_bytes:
+  - "4C"
+  - "00"
+id_hex: "0x004C"
+name: "Lucifer's Arrow"
+school: "Faith"
+capsule_type: "Attack"

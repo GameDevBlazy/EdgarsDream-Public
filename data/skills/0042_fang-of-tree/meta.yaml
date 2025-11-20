@@ -1,0 +1,8 @@
+order_index: 130
+id_hex_bytes:
+  - "42"
+  - "00"
+id_hex: "0x0042"
+name: "Fang of Tree"
+school: "Nature"
+capsule_type: "Attack"

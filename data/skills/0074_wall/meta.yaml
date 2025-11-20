@@ -1,0 +1,8 @@
+order_index: 230
+id_hex_bytes:
+  - "74"
+  - "00"
+id_hex: "0x0074"
+name: "Wall"
+school: "Psycho"
+capsule_type: "Defense"

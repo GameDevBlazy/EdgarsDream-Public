@@ -1,0 +1,8 @@
+order_index: 366
+id_hex_bytes:
+  - "F9"
+  - "00"
+id_hex: "0x00F9"
+name: "Call"
+school: "Psycho"
+capsule_type: "Special"

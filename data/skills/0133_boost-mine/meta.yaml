@@ -1,0 +1,8 @@
+order_index: 101
+id_hex_bytes:
+  - "33"
+  - "01"
+id_hex: "0x0133"
+name: "Boost Mine"
+school: "Optical"
+capsule_type: "Special"

@@ -1,0 +1,8 @@
+order_index: 358
+id_hex_bytes:
+  - "F1"
+  - "00"
+id_hex: "0x00F1"
+name: "Blessed Water"
+school: "Nature"
+capsule_type: "Special"

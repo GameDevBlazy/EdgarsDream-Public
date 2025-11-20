@@ -1,0 +1,8 @@
+order_index: 325
+id_hex_bytes:
+  - "D0"
+  - "00"
+id_hex: "0x00D0"
+name: "Paralyze"
+school: "Optical"
+capsule_type: "Status"

@@ -1,0 +1,8 @@
+order_index: 145
+id_hex_bytes:
+  - "49"
+  - "01"
+id_hex: "0x0149"
+name: "Arc of Fire"
+school: "Nature"
+capsule_type: "Attack"

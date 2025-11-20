@@ -1,0 +1,8 @@
+order_index: 110
+id_hex_bytes:
+  - "38"
+  - "00"
+id_hex: "0x0038"
+name: "Bundled Blaster"
+school: "Optical"
+capsule_type: "Attack"

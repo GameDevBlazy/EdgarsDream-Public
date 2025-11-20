@@ -1,0 +1,8 @@
+order_index: 265
+id_hex_bytes:
+  - "94"
+  - "00"
+id_hex: "0x0094"
+name: "Change Course"
+school: "Psycho"
+capsule_type: "Defense"

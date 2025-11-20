@@ -1,0 +1,8 @@
+order_index: 272
+id_hex_bytes:
+  - "9B"
+  - "00"
+id_hex: "0x009B"
+name: "Interference"
+school: "Optical"
+capsule_type: "Erase"

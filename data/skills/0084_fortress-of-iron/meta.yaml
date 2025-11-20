@@ -1,0 +1,8 @@
+order_index: 249
+id_hex_bytes:
+  - "84"
+  - "00"
+id_hex: "0x0084"
+name: "Fortress of Iron"
+school: "Nature"
+capsule_type: "Defense"

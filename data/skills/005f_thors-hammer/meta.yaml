@@ -1,0 +1,8 @@
+order_index: 188
+id_hex_bytes:
+  - "5F"
+  - "00"
+id_hex: "0x005F"
+name: "Thor's Hammer"
+school: "Faith"
+capsule_type: "Attack"

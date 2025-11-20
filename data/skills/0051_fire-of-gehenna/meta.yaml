@@ -1,0 +1,8 @@
+order_index: 160
+id_hex_bytes:
+  - "51"
+  - "00"
+id_hex: "0x0051"
+name: "Fire of Gehenna"
+school: "Faith"
+capsule_type: "Attack"

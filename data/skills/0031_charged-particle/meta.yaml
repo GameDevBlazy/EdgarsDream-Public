@@ -1,0 +1,8 @@
+order_index: 97
+id_hex_bytes:
+  - "31"
+  - "00"
+id_hex: "0x0031"
+name: "Charged Particle"
+school: "Optical"
+capsule_type: "Attack"

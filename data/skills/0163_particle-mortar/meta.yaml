@@ -1,0 +1,8 @@
+order_index: 197
+id_hex_bytes:
+  - "63"
+  - "01"
+id_hex: "0x0163"
+name: "Particle Mortar"
+school: "Optical"
+capsule_type: "Attack"

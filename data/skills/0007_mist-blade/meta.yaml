@@ -1,0 +1,8 @@
+order_index: 37
+id_hex_bytes:
+  - "07"
+  - "00"
+id_hex: "0x0007"
+name: "Mist Blade"
+school: "Optical"
+capsule_type: "Attack"

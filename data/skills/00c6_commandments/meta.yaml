@@ -1,0 +1,8 @@
+order_index: 315
+id_hex_bytes:
+  - "C6"
+  - "00"
+id_hex: "0x00C6"
+name: "Commandments"
+school: "Nature"
+capsule_type: "Environment"

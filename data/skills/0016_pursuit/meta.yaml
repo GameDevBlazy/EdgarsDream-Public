@@ -1,0 +1,8 @@
+order_index: 58
+id_hex_bytes:
+  - "16"
+  - "00"
+id_hex: "0x0016"
+name: "Pursuit"
+school: "Ki"
+capsule_type: "Attack"

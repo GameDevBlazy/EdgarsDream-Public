@@ -1,0 +1,8 @@
+order_index: 258
+id_hex_bytes:
+  - "8D"
+  - "00"
+id_hex: "0x008D"
+name: "Vacuum Wall"
+school: "Nature"
+capsule_type: "Defense"

@@ -1,0 +1,8 @@
+order_index: 333
+id_hex_bytes:
+  - "D8"
+  - "00"
+id_hex: "0x00D8"
+name: "Doze"
+school: "Optical"
+capsule_type: "Status"

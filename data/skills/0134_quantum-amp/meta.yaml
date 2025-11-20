@@ -1,0 +1,8 @@
+order_index: 103
+id_hex_bytes:
+  - "34"
+  - "01"
+id_hex: "0x0134"
+name: "Quantum Amp"
+school: "Optical"
+capsule_type: "Special"

@@ -1,0 +1,8 @@
+order_index: 337
+id_hex_bytes:
+  - "DC"
+  - "00"
+id_hex: "0x00DC"
+name: "Tiger's Strength"
+school: "Ki"
+capsule_type: "Status"

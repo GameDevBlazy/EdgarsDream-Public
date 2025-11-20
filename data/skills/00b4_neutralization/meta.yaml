@@ -1,0 +1,8 @@
+order_index: 297
+id_hex_bytes:
+  - "B4"
+  - "00"
+id_hex: "0x00B4"
+name: "Neutralization"
+school: "Ki"
+capsule_type: "Erase"

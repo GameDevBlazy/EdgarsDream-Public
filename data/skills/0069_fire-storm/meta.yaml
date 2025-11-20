@@ -1,0 +1,8 @@
+order_index: 208
+id_hex_bytes:
+  - "69"
+  - "00"
+id_hex: "0x0069"
+name: "Fire Storm"
+school: "Nature"
+capsule_type: "Attack"

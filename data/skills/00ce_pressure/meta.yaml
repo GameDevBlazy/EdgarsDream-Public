@@ -1,0 +1,8 @@
+order_index: 323
+id_hex_bytes:
+  - "CE"
+  - "00"
+id_hex: "0x00CE"
+name: "Pressure"
+school: "Psycho"
+capsule_type: "Status"

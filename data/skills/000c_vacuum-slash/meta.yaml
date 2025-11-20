@@ -1,0 +1,8 @@
+order_index: 44
+id_hex_bytes:
+  - "0C"
+  - "00"
+id_hex: "0x000C"
+name: "Vacuum Slash"
+school: "Nature"
+capsule_type: "Attack"

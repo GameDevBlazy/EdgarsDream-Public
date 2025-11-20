@@ -1,0 +1,8 @@
+order_index: 131
+id_hex_bytes:
+  - "42"
+  - "01"
+id_hex: "0x0142"
+name: "Knife Grind"
+school: "Psycho"
+capsule_type: "Attack"

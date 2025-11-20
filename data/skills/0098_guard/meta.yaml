@@ -1,0 +1,8 @@
+order_index: 269
+id_hex_bytes:
+  - "98"
+  - "00"
+id_hex: "0x0098"
+name: "Guard"
+school: "Ki"
+capsule_type: "Defense"

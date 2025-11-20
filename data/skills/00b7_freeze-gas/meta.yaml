@@ -1,0 +1,8 @@
+order_index: 300
+id_hex_bytes:
+  - "B7"
+  - "00"
+id_hex: "0x00B7"
+name: "Freeze Gas"
+school: "Psycho"
+capsule_type: "Status"

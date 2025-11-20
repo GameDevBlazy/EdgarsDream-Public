@@ -1,0 +1,8 @@
+order_index: 231
+id_hex_bytes:
+  - "74"
+  - "01"
+id_hex: "0x0174"
+name: "Dark Protection"
+school: "Faith"
+capsule_type: "Defense"

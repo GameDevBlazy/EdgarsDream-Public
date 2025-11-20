@@ -1,0 +1,8 @@
+order_index: 174
+id_hex_bytes:
+  - "58"
+  - "00"
+id_hex: "0x0058"
+name: "Lingering Flame"
+school: "Faith"
+capsule_type: "Attack"

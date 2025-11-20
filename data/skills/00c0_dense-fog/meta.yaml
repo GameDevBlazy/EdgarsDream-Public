@@ -1,0 +1,8 @@
+order_index: 309
+id_hex_bytes:
+  - "C0"
+  - "00"
+id_hex: "0x00C0"
+name: "Dense Fog"
+school: "Nature"
+capsule_type: "Environment"

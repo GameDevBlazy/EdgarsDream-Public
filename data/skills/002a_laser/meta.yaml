@@ -1,0 +1,8 @@
+order_index: 84
+id_hex_bytes:
+  - "2A"
+  - "00"
+id_hex: "0x002A"
+name: "Laser"
+school: "Optical"
+capsule_type: "Attack"

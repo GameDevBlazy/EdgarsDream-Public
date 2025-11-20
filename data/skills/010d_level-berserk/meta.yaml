@@ -1,0 +1,8 @@
+order_index: 47
+id_hex_bytes:
+  - "0D"
+  - "01"
+id_hex: "0x010D"
+name: "Level Berserk"
+school: "Optical"
+capsule_type: "Special"

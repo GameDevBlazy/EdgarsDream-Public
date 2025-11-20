@@ -1,0 +1,8 @@
+order_index: 94
+id_hex_bytes:
+  - "2F"
+  - "00"
+id_hex: "0x002F"
+name: "Mist Blaster"
+school: "Optical"
+capsule_type: "Attack"

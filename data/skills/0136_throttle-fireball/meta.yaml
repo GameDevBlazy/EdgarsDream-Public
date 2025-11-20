@@ -1,0 +1,8 @@
+order_index: 107
+id_hex_bytes:
+  - "36"
+  - "01"
+id_hex: "0x0136"
+name: "Throttle Fireball"
+school: "Nature"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 341
+id_hex_bytes:
+  - "E0"
+  - "00"
+id_hex: "0x00E0"
+name: "Speed Up"
+school: "Psycho"
+capsule_type: "Status"

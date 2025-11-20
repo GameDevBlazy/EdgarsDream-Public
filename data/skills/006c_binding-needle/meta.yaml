@@ -1,0 +1,8 @@
+order_index: 214
+id_hex_bytes:
+  - "6C"
+  - "00"
+id_hex: "0x006C"
+name: "Binding Needle"
+school: "Faith"
+capsule_type: "Attack"

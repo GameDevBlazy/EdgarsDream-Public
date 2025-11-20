@@ -1,0 +1,8 @@
+order_index: 311
+id_hex_bytes:
+  - "C2"
+  - "00"
+id_hex: "0x00C2"
+name: "Optimization"
+school: "Optical"
+capsule_type: "Environment"

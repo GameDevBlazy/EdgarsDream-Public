@@ -1,0 +1,8 @@
+order_index: 285
+id_hex_bytes:
+  - "A8"
+  - "00"
+id_hex: "0x00A8"
+name: "Fairy Ring"
+school: "Faith"
+capsule_type: "Erase"

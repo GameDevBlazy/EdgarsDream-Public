@@ -1,0 +1,8 @@
+order_index: 326
+id_hex_bytes:
+  - "D1"
+  - "00"
+id_hex: "0x00D1"
+name: "Entangle"
+school: "Nature"
+capsule_type: "Status"

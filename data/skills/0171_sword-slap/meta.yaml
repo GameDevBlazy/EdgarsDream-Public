@@ -1,0 +1,8 @@
+order_index: 225
+id_hex_bytes:
+  - "71"
+  - "01"
+id_hex: "0x0171"
+name: "Sword Slap"
+school: "Ki"
+capsule_type: "Special"

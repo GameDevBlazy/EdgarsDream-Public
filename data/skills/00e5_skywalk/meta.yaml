@@ -1,0 +1,8 @@
+order_index: 346
+id_hex_bytes:
+  - "E5"
+  - "00"
+id_hex: "0x00E5"
+name: "Skywalk"
+school: "Psycho"
+capsule_type: "Status"

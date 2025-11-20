@@ -1,0 +1,8 @@
+order_index: 266
+id_hex_bytes:
+  - "95"
+  - "00"
+id_hex: "0x0095"
+name: "Gust"
+school: "Nature"
+capsule_type: "Defense"

@@ -1,0 +1,8 @@
+order_index: 201
+id_hex_bytes:
+  - "65"
+  - "01"
+id_hex: "0x0165"
+name: "Young White Dragon"
+school: "Ki"
+capsule_type: "Attack"

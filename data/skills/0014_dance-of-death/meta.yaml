@@ -1,0 +1,8 @@
+order_index: 56
+id_hex_bytes:
+  - "14"
+  - "00"
+id_hex: "0x0014"
+name: "Dance of Death"
+school: "Ki"
+capsule_type: "Attack"

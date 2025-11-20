@@ -1,0 +1,8 @@
+order_index: 344
+id_hex_bytes:
+  - "E3"
+  - "00"
+id_hex: "0x00E3"
+name: "Magnetic Field"
+school: "Psycho"
+capsule_type: "Status"

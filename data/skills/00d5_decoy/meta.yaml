@@ -1,0 +1,8 @@
+order_index: 330
+id_hex_bytes:
+  - "D5"
+  - "00"
+id_hex: "0x00D5"
+name: "Decoy"
+school: "Nature"
+capsule_type: "Status"

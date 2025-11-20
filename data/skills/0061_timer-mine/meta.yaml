@@ -1,0 +1,8 @@
+order_index: 192
+id_hex_bytes:
+  - "61"
+  - "00"
+id_hex: "0x0061"
+name: "Timer Mine"
+school: "Psycho"
+capsule_type: "Attack"

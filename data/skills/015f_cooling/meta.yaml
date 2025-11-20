@@ -1,0 +1,8 @@
+order_index: 189
+id_hex_bytes:
+  - "5F"
+  - "01"
+id_hex: "0x015F"
+name: "Cooling"
+school: "Optical"
+capsule_type: "Erase"

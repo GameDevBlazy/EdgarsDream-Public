@@ -1,0 +1,8 @@
+order_index: 180
+id_hex_bytes:
+  - "5B"
+  - "00"
+id_hex: "0x005B"
+name: "Heat from Void"
+school: "Ki"
+capsule_type: "Attack"

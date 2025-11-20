@@ -1,0 +1,8 @@
+order_index: 324
+id_hex_bytes:
+  - "CF"
+  - "00"
+id_hex: "0x00CF"
+name: "Lift Up"
+school: "Psycho"
+capsule_type: "Status"

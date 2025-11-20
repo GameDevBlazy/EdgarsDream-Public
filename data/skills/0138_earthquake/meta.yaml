@@ -1,0 +1,8 @@
+order_index: 111
+id_hex_bytes:
+  - "38"
+  - "01"
+id_hex: "0x0138"
+name: "Earthquake"
+school: "Nature"
+capsule_type: "Attack"

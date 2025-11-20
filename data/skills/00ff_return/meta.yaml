@@ -1,0 +1,8 @@
+order_index: 372
+id_hex_bytes:
+  - "FF"
+  - "00"
+id_hex: "0x00FF"
+name: "Return"
+school: "Psycho"
+capsule_type: "Special"

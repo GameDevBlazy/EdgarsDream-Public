@@ -1,0 +1,8 @@
+order_index: 238
+id_hex_bytes:
+  - "79"
+  - "00"
+id_hex: "0x0079"
+name: "Eraser"
+school: "Optical"
+capsule_type: "Defense"

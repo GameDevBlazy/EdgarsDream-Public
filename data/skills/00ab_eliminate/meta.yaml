@@ -1,0 +1,8 @@
+order_index: 288
+id_hex_bytes:
+  - "AB"
+  - "00"
+id_hex: "0x00AB"
+name: "Eliminate"
+school: "Optical"
+capsule_type: "Erase"

@@ -1,0 +1,8 @@
+order_index: 357
+id_hex_bytes:
+  - "F0"
+  - "00"
+id_hex: "0x00F0"
+name: "Graceful Woods"
+school: "Nature"
+capsule_type: "Special"

@@ -1,0 +1,8 @@
+order_index: 200
+id_hex_bytes:
+  - "65"
+  - "00"
+id_hex: "0x0065"
+name: "Killer Satellite"
+school: "Optical"
+capsule_type: "Attack"

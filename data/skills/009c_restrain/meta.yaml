@@ -1,0 +1,8 @@
+order_index: 273
+id_hex_bytes:
+  - "9C"
+  - "00"
+id_hex: "0x009C"
+name: "Restrain"
+school: "Optical"
+capsule_type: "Erase"

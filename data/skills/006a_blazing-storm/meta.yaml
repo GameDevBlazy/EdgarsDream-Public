@@ -1,0 +1,8 @@
+order_index: 210
+id_hex_bytes:
+  - "6A"
+  - "00"
+id_hex: "0x006A"
+name: "Blazing Storm"
+school: "Nature"
+capsule_type: "Attack"

@@ -1,0 +1,8 @@
+order_index: 304
+id_hex_bytes:
+  - "BB"
+  - "00"
+id_hex: "0x00BB"
+name: "Desertification"
+school: "Nature"
+capsule_type: "Environment"

@@ -1,0 +1,8 @@
+order_index: 248
+id_hex_bytes:
+  - "83"
+  - "00"
+id_hex: "0x0083"
+name: "Guard of Water"
+school: "Nature"
+capsule_type: "Defense"

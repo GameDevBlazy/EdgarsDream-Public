@@ -1,0 +1,8 @@
+order_index: 104
+id_hex_bytes:
+  - "35"
+  - "00"
+id_hex: "0x0035"
+name: "Blaster"
+school: "Optical"
+capsule_type: "Attack"

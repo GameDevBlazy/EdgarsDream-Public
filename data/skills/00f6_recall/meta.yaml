@@ -1,0 +1,8 @@
+order_index: 363
+id_hex_bytes:
+  - "F6"
+  - "00"
+id_hex: "0x00F6"
+name: "Recall"
+school: "Optical"
+capsule_type: "Special"

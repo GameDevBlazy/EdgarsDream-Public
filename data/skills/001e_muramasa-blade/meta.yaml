@@ -1,0 +1,8 @@
+order_index: 70
+id_hex_bytes:
+  - "1E"
+  - "00"
+id_hex: "0x001E"
+name: "Muramasa Blade"
+school: "Faith"
+capsule_type: "Attack"

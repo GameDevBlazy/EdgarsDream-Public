@@ -1,0 +1,8 @@
+order_index: 105
+id_hex_bytes:
+  - "35"
+  - "01"
+id_hex: "0x0135"
+name: "Piece of Wind"
+school: "Nature"
+capsule_type: "Attack"
